@@ -1,75 +1,79 @@
-# Public сервер для CS2 от ServUp
+[<kbd><br>🌐 Русский README<br><br></kbd>](./README_RU.md)
 
-Добро пожаловать в официальный репозиторий готового к использованию публичного сервера для Counter-Strike 2 (CS2) от проекта ServUp. Эта сборка сервера предварительно настроена и включает широкий спектр плагинов и улучшений для обеспечения оптимального игрового процесса.
+# Public Server for CS2 by ServUp
 
-## Возможности
+Welcome to the official repository of the ready-to-use public server for Counter-Strike 2 (CS2) by the ServUp project. This server build is pre-configured and includes a wide range of plugins and enhancements to ensure optimal gameplay.
 
-На сервере установлены следующие плагины и инструменты:
+## Features
 
-- **Metamod**: [Metamod:Source](https://www.metamodsource.net/downloads.php/?branch=master) - Мощный фреймворк для плагинов для игр на движке Source.
-- **CounterStrikeSharp**: [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) - Обширный API для разработки плагинов для CS2.
-- **ServerListPlayersFix**: [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) - Исправляет проблемы с отображением количества игроков в списке серверов.
-- **VoiceFix**: [CS2VoiceFix](https://github.com/Source2ZE/CS2VoiceFix) - Решает проблемы с голосовой связью.
-- **FakeRanks**: [FakeRanks-RevealAll](https://github.com/Cruze03/FakeRanks-RevealAll) - Добавляет функциональность поддельных рангов на сервере.
-- **Реклама в чате**: [cs2-advertisement](https://github.com/partiusfabaa/cs2-advertisement) - Отображает пользовательские рекламные сообщения в игровом чате.
-- **AFK Manager**: [AFKManager](https://github.com/NiGHT757/AFKManager) - Автоматически управляет AFK-игроками.
-- **Админка**: [Iks_Admin](https://github.com/Iksix/Iks_Admin) - Предоставляет комплексную систему управления администраторами.
-- **Показ урона в чате**: [CS2_DamageInfo](https://github.com/KitsuneLab-Development/CS2_DamageInfo) - Отображает статистику урона в игровом чате.
-- **Система статистики**: [K4-System](https://github.com/KitsuneLab-Development/K4-System) - Отслеживает и управляет статистикой игроков.
-- **MM ранги**: [K4-System-MMRanks](https://github.com/KitsuneLab-Development/K4-System-MMRanks) - Интегрирует ранги матчмейкинга с K4-System.
-- **Менеджер меню**: [MenuManagerCS2](https://github.com/NickFox007/MenuManagerCS2) - Упрощает создание и управление игровыми меню.
-- **PlayerSettings**: [PlayerSettingsCS2](https://github.com/NickFox007/PlayerSettingsCS2) - Сохраняет и управляет настройками игроков.
-- **Обнуление счета**: [SimpleResetScore](https://github.com/stefanx111/cs2-SimpleResetScore) - Легко сбрасывает игровой счет.
-- **Ядро VIP с модулями**: [VIPCore](https://github.com/partiusfabaa/cs2-VIPCore) - Система VIP с настраиваемыми модулями.
-- **Скины на оружие и агентов**: [WeaponPaints](https://github.com/Nereziel/cs2-WeaponPaints) - Добавляет кастомные скины для оружия и агентов.
-- **Ограничение оружия по командам**: [Weapon-restrict-fix](https://github.com/Nip0s/Weapon-restrict-fix) - Ограничивает выбор оружия в зависимости от команды.
+The server is equipped with the following plugins and tools:
 
-## Требования
+- **Metamod**: [Metamod:Source](https://www.metamodsource.net/downloads.php/?branch=master) - A powerful plugin framework for games on the Source engine.
+- **CounterStrikeSharp**: [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) - A comprehensive API for CS2 plugin development.
+- **ServerListPlayersFix**: [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) - Fixes issues with player count display in the server list.
+- **VoiceFix**: [CS2VoiceFix](https://github.com/Source2ZE/CS2VoiceFix) - Resolves voice communication issues.
+- **FakeRanks**: [FakeRanks-RevealAll](https://github.com/Cruze03/FakeRanks-RevealAll) - Adds fake rank functionality to the server.
+- **Chat Advertisement**: [cs2-advertisement](https://github.com/partiusfabaa/cs2-advertisement) - Displays custom advertisement messages in the game chat.
+- **AFK Manager**: [AFKManager](https://github.com/NiGHT757/AFKManager) - Automatically manages AFK players.
+- **Admin System**: [Iks_Admin](https://github.com/Iksix/Iks_Admin) - Provides a comprehensive admin management system.
+- **Damage Info Display in Chat**: [CS2_DamageInfo](https://github.com/KitsuneLab-Development/CS2_DamageInfo) - Shows damage statistics in the game chat.
+- **Statistics System**: [K4-System](https://github.com/KitsuneLab-Development/K4-System) - Tracks and manages player statistics.
+- **MM Ranks**: [K4-System-MMRanks](https://github.com/KitsuneLab-Development/K4-System-MMRanks) - Integrates matchmaking ranks with the K4-System.
+- **Menu Manager**: [MenuManagerCS2](https://github.com/NickFox007/MenuManagerCS2) - Simplifies the creation and management of in-game menus.
+- **Player Settings**: [PlayerSettingsCS2](https://github.com/NickFox007/PlayerSettingsCS2) - Saves and manages player settings.
+- **Score Reset**: [SimpleResetScore](https://github.com/stefanx111/cs2-SimpleResetScore) - Easily resets the game score.
+- **VIP Core with Modules**: [VIPCore](https://github.com/partiusfabaa/cs2-VIPCore) - A VIP system with customizable modules.
+- **Weapon and Agent Skins**: [WeaponPaints](https://github.com/Nereziel/cs2-WeaponPaints) - Adds custom skins for weapons and agents.
+- **Team-Based Weapon Restrictions**: [Weapon-restrict-fix](https://github.com/Nip0s/Weapon-restrict-fix) - Restricts weapon selection based on team.
 
-Для настройки сервера вам потребуется:
+## Requirements
 
-- **Хостинг**: Услуга хостинга игровых серверов.
-- **MySQL база данных**: Для хранения данных, связанных с плагинами.
-- **Веб-хостинг и доменное имя**: Для установки веб-движка, необходимого для выбора скинов на оружие и агентов.
+To set up the server, you will need:
 
-## Руководство по установке
+- **Hosting**: A game server hosting service.
+- **MySQL Database**: For storing data related to plugins.
+- **Web Hosting and Domain Name**: For setting up the web engine needed to select weapon and agent skins.
 
-Следуйте этим шагам для установки и настройки вашего CS2 сервера:
+## Installation Guide
 
-1. **Скачайте сервер**:
-   - [Скачайте предварительно настроенную сборку сервера](https://github.com/serv-up/cs2-public-serv).
+Follow these steps to install and configure your CS2 server:
+
+1. **Download the server**:
+   - [Download the pre-configured server build](https://github.com/serv-up/cs2-public-serv).
    
-2. **Распакуйте архив**:
-   - Разархивируйте скачанный архив в нужную директорию.
+2. **Unpack the archive**:
+   - Unzip the downloaded archive to the desired directory.
 
-3. **Настройте файлы сервера**:
-   - Отредактируйте следующие конфигурационные файлы под ваши нужды:
-     - `cfg/server.cfg` - Основной конфигурационный файл сервера.
-     - `addons/counterstrikesharp/configs/plugins/Advertisement/Advertisement.json` - Настройка рекламы в игровом чате.
-     - `addons/counterstrikesharp/configs/plugins/IksAdmin/IksAdmin.json` - Настройка админ-системы, включая параметры базы данных.
-     - `addons/counterstrikesharp/configs/plugins/IksAdmin_SocietyLogs/IksAdmin_SocietyLogs.json` - Настройка Discord Webhook для логирования.
-     - `addons/counterstrikesharp/configs/plugins/K4-System/K4-System.json` - Настройка системы статистики, включая параметры базы данных.
-     - `addons/counterstrikesharp/configs/plugins/VIPCore/vip_core.json` - Настройка VIP-системы, включая интеграцию с базой данных.
-     - `addons/counterstrikesharp/configs/plugins/WeaponPaints/WeaponPaints.json` - Настройка выбора скинов для оружия и агентов с использованием базы данных.
+3. **Configure server files**:
+   - Edit the following configuration files according to your needs:
+     - `cfg/server.cfg` - The main server configuration file.
+     - `addons/counterstrikesharp/configs/plugins/Advertisement/Advertisement.json` - Configures chat advertisement.
+     - `addons/counterstrikesharp/configs/plugins/IksAdmin/IksAdmin.json` - Configures the admin system, including database settings.
+     - `addons/counterstrikesharp/configs/plugins/IksAdmin_SocietyLogs/IksAdmin_SocietyLogs.json` - Configures Discord Webhook for logging.
+     - `addons/counterstrikesharp/configs/plugins/K4-System/K4-System.json` - Configures the statistics system, including database settings.
+     - `addons/counterstrikesharp/configs/plugins/VIPCore/vip_core.json` - Configures the VIP system, including database integration.
+     - `addons/counterstrikesharp/configs/plugins/WeaponPaints/WeaponPaints.json` - Configures the skin selection for weapons and agents using a database.
 
-4. **Запустите сервер**:
-   - Запустите сервер и наслаждайтесь полностью функциональным, богатым на функции сервером CS2.
+4. **Start the server**:
+   - Launch the server and enjoy a fully functional, feature-rich CS2 server.
 
 ---
-Для более подробной инструкции и поддержки обращайтесь к документации отдельных плагинов, ссылки на которые приведены выше, или свяжитесь с сообществом ServUp.
+For more detailed instructions and support, refer to the documentation for the individual plugins linked above, or connect with the ServUp community.
 
-Не стесняйтесь форкать этот репозиторий, отправлять баг-репорты или вносить свой вклад в проект!
+Feel free to fork this repository, submit bug reports, or contribute to the project!
 
-## Заключение
+## Conclusion
 
-Здесь собрана базовая конфигурация сервера, которую вы можете дополнить различными функциями в зависимости от ваших потребностей. Однако, если вы хотите создать качественную и продуманную сборку сервера, обращайтесь к нам — мы рады помочь каждому. Подробнее на нашем сайте: [servup.net](https://servup.net).
+This repository provides a basic server configuration that you can extend with additional features based on your needs. However, if you want to create a high-quality and well-thought-out server build, feel free to contact us — we are happy to help everyone. Learn more on our website: [servup.net](https://servup.net).
 
-Для того чтобы найти нужный плагин и следить за его обновлениями, присоединяйтесь к нашему Discord-каналу: [https://discord.gg/servup](https://discord.gg/servup).
+To find the necessary plugin and keep track of its updates, join our Discord channel: [https://discord.gg/servup](https://discord.gg/servup).
 
-## Ищем возможности
+## Looking for Opportunities
 
-Если вам нужен опытный разработчик для ваших проектов, свяжитесь со мной:
+If you need an experienced developer for your projects, contact me:
 
 - **Discord**: [https://discord.gg/servup](https://discord.gg/servup)
+- **Telegram**: [https://t.me/serv_up](https://t.me/serv_up)
+- **Steam**: [https://steamcommunity.com/id/nex-end/](https://steamcommunity.com/id/nex-end/)
 - **Telegram**: [https://t.me/serv_up](https://t.me/serv_up)
 - **Steam**: [https://steamcommunity.com/id/nex-end/](https://steamcommunity.com/id/nex-end/)
