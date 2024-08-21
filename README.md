@@ -75,5 +75,3 @@ If you need an experienced developer for your projects, contact me:
 - **Discord**: [https://discord.gg/servup](https://discord.gg/servup)
 - **Telegram**: [https://t.me/serv_up](https://t.me/serv_up)
 - **Steam**: [https://steamcommunity.com/id/nex-end/](https://steamcommunity.com/id/nex-end/)
-- **Telegram**: [https://t.me/serv_up](https://t.me/serv_up)
-- **Steam**: [https://steamcommunity.com/id/nex-end/](https://steamcommunity.com/id/nex-end/)
