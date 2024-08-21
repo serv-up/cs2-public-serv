@@ -1,0 +1,6 @@
+{
+    "resetscore.resetscore.onlyvips": "Dieser Befehl ist nur für vips !",
+    "resetscore.setscore.onlyadmins": "Dieser Befehl ist nur für Administratoren !",
+    "resetscore.resetscore.message": "Dein Punktestand wurde zurückgesetzt !",
+    "resetscore.setscore.message": "{Gold}{0:s}{Default} Punktestand wurde festgelegt !"
+} 

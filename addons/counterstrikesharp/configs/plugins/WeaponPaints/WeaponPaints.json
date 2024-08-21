@@ -1,0 +1,32 @@
+{
+  "Version": 6,
+  "DatabaseHost": "",
+  "DatabasePort": 3306,
+  "DatabaseUser": "",
+  "DatabasePassword": "",
+  "DatabaseName": "",
+  "CmdRefreshCooldownSeconds": 60,
+  "Prefix": "[WeaponPaints]",
+  "Website": "servup.net",
+  "Additional": {
+    "KnifeEnabled": true,
+    "GloveEnabled": true,
+    "MusicEnabled": true,
+    "AgentEnabled": true,
+    "SkinEnabled": true,
+    "CommandWpEnabled": true,
+    "CommandKillEnabled": true,
+    "CommandKnife": "knife",
+    "CommandMusic": "music",
+    "CommandGlove": "gloves",
+    "CommandAgent": "agents",
+    "CommandSkin": "ws",
+    "CommandSkinSelection": "skins",
+    "CommandRefresh": "wp",
+    "CommandKill": "kill",
+    "GiveRandomKnife": false,
+    "GiveRandomSkin": false,
+    "ShowSkinImage": true
+  },
+  "ConfigVersion": 6
+}

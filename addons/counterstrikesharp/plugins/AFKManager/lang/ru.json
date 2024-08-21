@@ -1,0 +1,13 @@
+﻿{
+  "ChatPrefix": "{purple}[AFK]{default} » ",
+  "ChatKickMessage": "{grey}{playerName}{default} был {lime}кикнут{default} за то, что был {darkred}AFK{default}.",
+  "ChatMoveMessage": "{grey}{playerName}{default} был {lime}перемещен{default} в НАБЛЮДАТЕЛИ, так как был {darkred}AFK{default}.",
+  "ChatKillMessage": "{grey}{playerName}{default} был {lime}убит{default} за то, что был {darkred}AFK{default}.",
+  "ChatWarningKickMessage": "Вы {darkred}бездействуете/AFK{default}. Двигайтесь, иначе вы будете {lime}кикнуты{default} через {lightblue}{timeAmount}{default} секунд.",
+  "ChatWarningMoveMessage": "Вы {darkred}бездействуете/AFK{default}. Двигайтесь, иначе вы будете {lime}перемещены{default} в НАБЛЮДАТЕЛИ через {lightblue}{timeAmount}{default} секунд.",
+  "ChatWarningKillMessage": "Вы {darkred}бездействуете/AFK{default}. Двигайтесь, иначе вы будете {lime}убиты{default} через {lightblue}{timeAmount}{default} секунд.",
+  "AntiCampSlayMessage": "{grey}{playerName}{default} был {lime}убит{default} за кемпинг в {green}@{zoneName}{default} с оружием {lime}{weaponName}{default}.",
+  "AntiCampSlapMessage": "{grey}{playerName}{default} получил {lime}удар{default} с {red}{slapAmount} урона{default} за кемпинг в {green}@{zoneName}{default} с оружием {lime}{weaponName}{default}.",
+  "AntiCampSlayWarningMessage": "Прекратите кемпинг в {green}@{zoneName}{default} с оружием {lime}{weaponName}{default}, иначе вы будете {lime}убиты{default} через {lightblue}{timeAmount}{default} секунд.",
+  "AntiCampSlapWarningMessage": "Прекратите кемпинг в {green}@{zoneName}{default} с оружием {lime}{weaponName}{default}, иначе вы получите {lime}удар{default} с {red}{slapAmount} урона{default} через {lightblue}{timeAmount}{default} секунд."
+}

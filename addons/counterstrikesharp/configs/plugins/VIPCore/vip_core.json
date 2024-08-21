@@ -1,0 +1,14 @@
+{
+  "TimeMode": 0,
+  "ServerId": 1,
+  "UseCenterHtmlMenu": false,
+  "ReOpenMenuAfterItemClick": false,
+  "VipLogging": true,
+  "Connection": {
+    "Host": "",
+    "Database": "",
+    "User": "",
+    "Password": "",
+    "Port": 3306
+  }
+}

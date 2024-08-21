@@ -1,0 +1,10 @@
+{
+    "PublicChatTrigger": [ "!" ],
+    "SilentChatTrigger": [ "/" ],
+    "FollowCS2ServerGuidelines": false,
+    "PluginHotReloadEnabled": false,
+    "PluginAutoLoadEnabled": true,
+    "ServerLanguage": "ru",
+    "UnlockConCommands": true,
+    "UnlockConVars": true
+}

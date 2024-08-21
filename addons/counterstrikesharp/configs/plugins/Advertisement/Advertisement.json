@@ -1,0 +1,51 @@
+{
+  "PrintToCenterHtml": false,
+  "WelcomeMessage": {
+    "MessageType": 0,
+    "Message": "{welcome_player} {RED}{PLAYERNAME} {welcome_text}",
+    "DisplayDelay": 5
+  },
+  "Ads": [
+    {
+      "Interval": 65,
+      "Messages": [
+      	{
+          "Chat": "{reklama_1}"
+
+        },
+        {
+          "Chat": "{reklama_2}"
+        }
+      ]
+    }
+  ],
+  "Panel": null,
+  "DefaultLang": "RU",
+  "LanguageMessages": {
+    "welcome_player": {
+      "RU": "{GREEN}Добро пожаловать"
+    },
+    "welcome_text": {
+      "RU": "{GREEN}на игровой сервер {RED}SERVUP.NET"
+       },
+    "reklama_1": {
+      "RU": "{RED}[SERVUP] {GREEN}Сервер {RED}{SERVERNAME}\n{RED}[SERVUP] {GREEN}IP-адрес {RED}{IP}:{PORT}\n{RED}[SERVUP] {GREEN}Игроков [{RED}{PLAYERS} {GREEN}/ {RED}{MAXPLAYERS}{GREEN}]",
+      "EN": "{RED}[SERVUP] {GREEN}Server {RED}{SERVERNAME}\n{RED}[SERVUP] {GREEN}IP Address {RED}{IP}:{PORT}\n{RED}[SERVUP] {GREEN}Players [{RED}{PLAYERS} {GREEN}/ {RED}{MAXPLAYERS}{GREEN}]"
+    },
+    "reklama_2": {
+      "RU": "{RED}[SERVUP] {GREEN}Команды сервера {RED}!wp{GREEN}, {RED}!ws{GREEN}, {RED}!knife{GREEN}, {RED}!gloves{GREEN}, {RED}!skins{GREEN}, {RED}!lvl{GREEN}, {RED}!rs{GREEN}, {RED}!rank{GREEN}, {RED}!top",
+      "EN": "{RED}[SERVUP] {GREEN}Server commands {RED}!wp{GREEN}, {RED}!ws{GREEN}, {RED}!knife{GREEN}, {RED}!gloves{GREEN}, {RED}!skins{GREEN}, {RED}!lvl{GREEN}, {RED}!rs{GREEN}, {RED}!rank{GREEN}, {RED}!top"
+    }
+  },
+  "MapsName": {
+    "de_mirage": "Mirage",
+    "de_dust2": "Dust2",
+    "de_inferno": "Inferno",
+    "de_nuke": "Nuke",
+    "de_overpass": "Overpass",
+    "de_vertigo": "Vertigo",
+    "de_ancient": "Ancient",
+    "de_anubis": "Anubis",
+    "de_train": "Train"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "MessagePrefix": "\u1010\u0010[ОграничениеОружия] ",
+  "RestrictMessage": "\u0003{0}\u0001 в данный момент ограничено до \u000F{1}\u0001 на команду",
+  "DisabledMessage": "\u0003{0}\u0001 в данный момент \u000Fотключено",
+  "TeamSizeWeaponLimits": {
+    "1": {
+      "weapon_awp": 1
+    },
+    "6": {
+      "weapon_awp": 2
+    },
+    "10": {
+      "weapon_awp": 4
+    },
+    "15": {
+      "weapon_awp": 5
+    },
+    "20": {
+      "weapon_awp": 6
+    },
+    "25": {
+      "weapon_awp": 7
+    }
+  },
+  "WeaponQuotas": {
+  },
+  "WeaponLimits": {
+    "weapon_taser": 0,
+    "weapon_g3sg1": 0,
+    "weapon_scar20": 0
+  },
+  "DoTeamCheck": true,
+  "AllowPickup": false,
+  "VIPFlag": "@css/restrictimun",
+  "MapConfigs": {
+    "de_dust2": {
+      "WeaponQuotas": {
+      },
+      "WeaponLimits": {
+      },
+      "awp.*": {}
+    }
+  },
+  "ConfigVersion": 2
+}

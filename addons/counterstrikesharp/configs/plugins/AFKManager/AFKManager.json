@@ -1,0 +1,20 @@
+{
+  "ChatPrefix": "[{LightRed}AFK{Default}]",
+  "ChatKickMessage": "{chatprefix} {playername} был кикнут из-за долгого нахождения в AFK",
+  "ChatMoveMessage": "{chatprefix} {playername} был перенесен в наблюдатели из-за долгого нахождения в AFK",
+  "ChatKillMessage": "{chatprefix} {playername} был убит из-за долгого нахождения в AFK",
+  "ChatWarningKickMessage": "{chatprefix} Вы {LightRed}AFK{Default}. Двигайся или Вы будете кикнуты через {Darkred}{time}{Default} секунд",
+  "ChatWarningMoveMessage": "{chatprefix} Вы {LightRed}AFK{Default}. Двигайся или Вы будете переведены в наблюдатели через {Darkred}{time}{Default} секунд",
+  "ChatWarningKillMessage": "{chatprefix} Вы {LightRed}AFK{Default}. Двигайся или Вы будете убиты через {Darkred}{time}{Default} секунд",
+  "SpecWarnPlayerEveryXSeconds": 20,
+  "SpecKickPlayerAfterXWarnings": 5,
+  "SpecKickMinPlayers": 5,
+  "SpecKickOnlyMovedByPlugin": true,
+  "SpecSkipFlag": "",
+  "SkipFlag": "",
+  "Warnings": 3,
+  "Punishment": 1,
+  "Retake": false,
+  "Timer": 5,
+  "ConfigVersion": 1
+}

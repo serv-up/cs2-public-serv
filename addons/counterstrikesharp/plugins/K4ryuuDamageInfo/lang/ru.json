@@ -1,0 +1,20 @@
+{
+	"phrases.summary.startline": "================== Статистика ==================",
+	"phrases.summary.dataline": "{lime}➜ {white}К: [{lime}{0} / {1} попаданий{white}] От: [{lightred}{2} / {3} попаданий{white}] - {4} [{lightred}{5}{white}]",
+	"phrases.summary.endline": "===============================================",
+	"phrases.center.deadly": "Нанесено Урона:\nHP {0} | Часть тела: {1}",
+	"phrases.center.normal": "Нанесено Урона:\nHP {0} | Броня {1} | Часть тела: {2}",
+	"phrases.console.normal": "Нанесено Урона Кому: {0} | HP {1} | Броня {2} | Часть тела: {3}",
+	"phrases.console.inverse": "Получено Урона От: {0} | HP {1} | Броня {2} | Часть тела: {3}",
+	"phrases.dead": "МЁРТВ",
+	"phrases.hitgroup.0": "Тело",
+	"phrases.hitgroup.1": "Голова",
+	"phrases.hitgroup.2": "Грудь",
+	"phrases.hitgroup.3": "Живот",
+	"phrases.hitgroup.4": "Левая Рука",
+	"phrases.hitgroup.5": "Правая Рука",
+	"phrases.hitgroup.6": "Левая Нога",
+	"phrases.hitgroup.7": "Правая Нога",
+	"phrases.hitgroup.10": "Снаряжение",
+	"phrases.hitgroup._": "Неизвестно"
+}

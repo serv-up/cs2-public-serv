@@ -1,0 +1,19 @@
+{
+  "round-end-summary": true,
+  "round-end-summary-allow-death-print": true,
+  "round-end-summary-show-only-killer": false,
+  "round-end-summary-show-friendlyfire": false,
+  "round-end-summary-show-all-damages": false,
+  "round-end-summary-show-all-damages-enemies-only": true,
+  "center-damage-info": true,
+  "console-damage-info": true,
+  "ffa-mode": false,
+  "norounds-mode": false,
+  "center-info-flags": [
+    "@myplugin/can-see-permission",
+    "#myplugin/can-see-group",
+    "can-see-override",
+    "leave-empty-so-let-everyone-see"
+  ],
+  "ConfigVersion": 4
+}
