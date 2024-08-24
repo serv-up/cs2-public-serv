@@ -34,6 +34,7 @@ To set up the server, you will need:
 - **MySQL Database**: For storing data related to plugins.
 - **Web Hosting and Domain Name**: For setting up the web engine needed to select weapon and agent skins.
 
+
 ## Installation Guide
 
 Follow these steps to install and configure your CS2 server:
