@@ -684,6 +684,12 @@
             <param name="command"></param>
             <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
         </member>
+        <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.Disconnect(CounterStrikeSharp.API.ValveConstants.Protobuf.NetworkDisconnectionReason)">
+            <summary>
+            Disconnects a player from the server with the specified reason.
+            </summary>
+            <param name="reason"></param>
+        </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSPlayerController.ExecuteClientCommandFromServer(System.String)">
             <summary>
             Issue the specified command directly from the server (mimics the server executing the command with the given player context).
@@ -1737,6 +1743,11 @@
             <param name="fieldName" example="m_iHealth">Schema field name</param>
             <param name="extraOffset">Any additional offset to the schema field</param>
             <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="T:CounterStrikeSharp.API.ValveConstants.Protobuf.NetworkDisconnectionReason">
+            <summary>
+            Enum derived from `network_connection.proto`
+            </summary>
         </member>
     </members>
 </doc>
