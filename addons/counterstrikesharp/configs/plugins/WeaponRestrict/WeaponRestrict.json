@@ -1,42 +1,41 @@
 {
-  "MessagePrefix": "\u1010\u0010[ОграничениеОружия] ",
-  "RestrictMessage": "\u0003{0}\u0001 в данный момент ограничено до \u000F{1}\u0001 на команду",
-  "DisabledMessage": "\u0003{0}\u0001 в данный момент \u000Fотключено",
+  "MessagePrefix": "\u1010\u0010SERVUP | ",
+  "RestrictMessage": "\u0003{0}\u0001 is currently restricted - \u000F{1}\u0001 per team, due to a lack of players",
+  "DisabledMessage": "\u0003{0}\u0001 is currently \u000Fdisabled\u0001",
   "TeamSizeWeaponLimits": {
     "1": {
-      "weapon_awp": 1
-    },
-    "6": {
-      "weapon_awp": 2
+    "weapon_awp": 0,
+	  "weapon_g3sg1": 0,
+	  "weapon_scar20": 0
+	  
     },
     "10": {
-      "weapon_awp": 4
+    "weapon_awp": 2,
+	  "weapon_g3sg1": 0,
+	  "weapon_scar20": 0
     },
-    "15": {
-      "weapon_awp": 5
-    },
-    "20": {
-      "weapon_awp": 6
-    },
-    "25": {
-      "weapon_awp": 7
+	"16": {
+    "weapon_awp": 3,
+	  "weapon_g3sg1": 0,
+	  "weapon_scar20": 0
     }
   },
   "WeaponQuotas": {
+    "weapon_awp": 0.2
   },
   "WeaponLimits": {
-    "weapon_taser": 0,
-    "weapon_g3sg1": 0,
-    "weapon_scar20": 0
+    "weapon_awp": 10
   },
-  "DoTeamCheck": true,
+  "DoTeamCheck": false,
   "AllowPickup": false,
-  "VIPFlag": "@css/restrictimun",
+  "VIPFlag": "",
   "MapConfigs": {
-    "de_dust2": {
+    "de_nuke": {
       "WeaponQuotas": {
+        "weapon_awp": 0.2
       },
       "WeaponLimits": {
+        "weapon_awp": 1
       },
       "awp.*": {}
     }

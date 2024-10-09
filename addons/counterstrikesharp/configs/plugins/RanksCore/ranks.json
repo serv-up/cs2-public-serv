@@ -1,0 +1,75 @@
+{
+  "TableName": "lvl_base",
+  "Prefix": "{BLUE}SERVUP {DEFAULT}|",
+  "TeamKillAllowed": true,
+  "UseCommandWithoutPrefix": true,
+  "ShowExperienceMessages": true,
+  "MinPlayers": 4,
+  "InitialExperiencePoints": 500,
+  "StatisticsResetEnabled": true,
+  "TypeStatistics": 0,
+  "KillCoefficient": 1.04,
+  "Events": {
+    "EventRoundMvp": 20,
+    "EventPlayerDeath": {
+      "Kills": 15,
+      "Deaths": -10,
+      "Assists": 7,
+      "KillingAnAlly": -15,
+      "Suicide": -20
+    },
+    "EventPlayerBomb": {
+      "DroppedBomb": -5,
+      "PlantedBomb": 6,
+      "DefusedBomb": 6,
+      "PickUpBomb": 4
+    },
+    "EventRoundEnd": {
+      "Winner": 10,
+      "Loser": -5
+    },
+    "Additionally": {
+      "Headshot": 3,
+      "Noscope": 4,
+      "Attackerblind": 3,
+      "Thrusmoke": 4,
+      "Penetrated": 5
+    }
+  },
+  "Weapon": {
+    "knife": 15,
+    "awp": 3
+  },
+  "Ranks": {
+  "Recruit": 0,
+  "Cadet": 100,
+  "Private": 250,
+  "Corporal": 400,
+  "Sergeant": 600,
+  "Lieutenant": 800,
+  "Captain": 1000,
+  "Major": 1300,
+  "Colonel": 1700,
+  "Commander": 2100,
+  "Warlord": 2600,
+  "Enforcer": 3200,
+  "Assassin": 4000,
+  "Elite Assassin": 5000,
+  "Shadow Operative": 6000,
+  "Phantom": 7500,
+  "Master Phantom": 9000,
+  "Legendary Hero": 11000,
+  "Titan": 13500,
+  "Supreme Titan": 16000,
+  "Immortal": 19000,
+  "Apex Predator": 22500,
+  "God of War": 27000
+  },
+  "Connection": {
+    "Host": "",
+    "Database": "",
+    "User": "",
+    "Password": "",
+    "Port": 3306
+  }
+}

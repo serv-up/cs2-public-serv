@@ -1,5 +1,5 @@
 {
-	"wp_prefix": "{lightblue}[WS] {default}",
+	"wp_prefix": "{lightblue}[WeaponPaints] {default}",
 	"wp_info_website": "Посетите {lime}{0}{default}, где вы можете изменить скины",
 	"wp_info_refresh": "Введите {lime}!wp{default}, чтобы синхронизировать выбранные скины",
 	"wp_info_knife": "Введите {lime}!knife{default}, чтобы открыть меню ножей",
@@ -20,5 +20,6 @@
 	"wp_skin_menu_weapon_title": "Меню Оружия",
 	"wp_skin_menu_skin_title": "Выберите скин для {lime}{0}{default}",
 	"wp_skin_menu_select": "Вы выбрали {lime}{0}{default} в качестве вашего скина",
+
 	"None": "Нет"
 }

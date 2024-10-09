@@ -1,5 +1,7 @@
 {
   "PrintToCenterHtml": false,
+  "HtmlCenterDuration": null,
+  "ShowHtmlWhenDead": null,
   "WelcomeMessage": {
     "MessageType": 0,
     "Message": "{welcome_player} {RED}{PLAYERNAME} {welcome_text}",

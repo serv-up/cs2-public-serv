@@ -1,5 +1,5 @@
 {
-	"wp_prefix": "{lightblue}[WS] {default}",
+	"wp_prefix": "{lightblue}[WeaponPaints] {default}",
 	"wp_info_website": "Visit {lime}{0}{default} where you can change skins",
 	"wp_info_refresh": "Type {lime}!wp{default} to synchronize chosen skins",
 	"wp_info_knife": "Type {lime}!knife{default} to open knife menu",
@@ -20,5 +20,6 @@
 	"wp_skin_menu_weapon_title": "Weapon Menu",
 	"wp_skin_menu_skin_title": "Select skin for {lime}{0}{default}",
 	"wp_skin_menu_select": "You have chosen {lime}{0}{default} as your skin",
+
 	"None": "None"
 }
