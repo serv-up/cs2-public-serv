@@ -11,14 +11,11 @@
 - **Metamod**: [Metamod:Source](https://www.metamodsource.net/downloads.php/?branch=master) - Мощный фреймворк для плагинов для игр на движке Source.
 - **CounterStrikeSharp**: [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) - Обширный API для разработки плагинов для CS2.
 - **ServerListPlayersFix**: [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) - Исправляет проблемы с отображением количества игроков в списке серверов.
-- **VoiceFix**: [CS2VoiceFix](https://github.com/Source2ZE/CS2VoiceFix) - Решает проблемы с голосовой связью.
-- **FakeRanks**: [FakeRanks-RevealAll](https://github.com/Cruze03/FakeRanks-RevealAll) - Добавляет функциональность поддельных рангов на сервере.
 - **Реклама в чате**: [cs2-advertisement](https://github.com/partiusfabaa/cs2-advertisement) - Отображает пользовательские рекламные сообщения в игровом чате.
 - **AFK Manager**: [AFKManager](https://github.com/NiGHT757/AFKManager) - Автоматически управляет AFK-игроками.
 - **Админка**: [Iks_Admin](https://github.com/Iksix/Iks_Admin) - Предоставляет комплексную систему управления администраторами.
 - **Показ урона в чате**: [CS2_DamageInfo](https://github.com/KitsuneLab-Development/CS2_DamageInfo) - Отображает статистику урона в игровом чате.
-- **Система статистики**: [K4-System](https://github.com/KitsuneLab-Development/K4-System) - Отслеживает и управляет статистикой игроков.
-- **MM ранги**: [K4-System-MMRanks](https://github.com/KitsuneLab-Development/K4-System-MMRanks) - Интегрирует ранги матчмейкинга с K4-System.
+- **Система статистики**: [Stats](https://github.com/partiusfabaa/cs2-ranks) - Отслеживает и управляет статистикой игроков.
 - **Менеджер меню**: [MenuManagerCS2](https://github.com/NickFox007/MenuManagerCS2) - Упрощает создание и управление игровыми меню.
 - **PlayerSettings**: [PlayerSettingsCS2](https://github.com/NickFox007/PlayerSettingsCS2) - Сохраняет и управляет настройками игроков.
 - **Обнуление счета**: [SimpleResetScore](https://github.com/stefanx111/cs2-SimpleResetScore) - Легко сбрасывает игровой счет.
@@ -50,7 +47,7 @@
      - `addons/counterstrikesharp/configs/plugins/Advertisement/Advertisement.json` - Настройка рекламы в игровом чате.
      - `addons/counterstrikesharp/configs/plugins/IksAdmin/IksAdmin.json` - Настройка админ-системы, включая параметры базы данных.
      - `addons/counterstrikesharp/configs/plugins/IksAdmin_SocietyLogs/IksAdmin_SocietyLogs.json` - Настройка Discord Webhook для логирования.
-     - `addons/counterstrikesharp/configs/plugins/K4-System/K4-System.json` - Настройка системы статистики, включая параметры базы данных.
+     - `addons/counterstrikesharp/configs/plugins/RanksCore/ranks.json` - Настройка системы статистики, включая параметры базы данных.
      - `addons/counterstrikesharp/configs/plugins/VIPCore/vip_core.json` - Настройка VIP-системы, включая интеграцию с базой данных.
      - `addons/counterstrikesharp/configs/plugins/WeaponPaints/WeaponPaints.json` - Настройка выбора скинов для оружия и агентов с использованием базы данных.
 

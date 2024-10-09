@@ -11,14 +11,11 @@ The server is equipped with the following plugins and tools:
 - **Metamod**: [Metamod:Source](https://www.metamodsource.net/downloads.php/?branch=master) - A powerful plugin framework for games on the Source engine.
 - **CounterStrikeSharp**: [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) - A comprehensive API for CS2 plugin development.
 - **ServerListPlayersFix**: [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) - Fixes issues with player count display in the server list.
-- **VoiceFix**: [CS2VoiceFix](https://github.com/Source2ZE/CS2VoiceFix) - Resolves voice communication issues.
-- **FakeRanks**: [FakeRanks-RevealAll](https://github.com/Cruze03/FakeRanks-RevealAll) - Adds fake rank functionality to the server.
 - **Chat Advertisement**: [cs2-advertisement](https://github.com/partiusfabaa/cs2-advertisement) - Displays custom advertisement messages in the game chat.
 - **AFK Manager**: [AFKManager](https://github.com/NiGHT757/AFKManager) - Automatically manages AFK players.
 - **Admin System**: [Iks_Admin](https://github.com/Iksix/Iks_Admin) - Provides a comprehensive admin management system.
 - **Damage Info Display in Chat**: [CS2_DamageInfo](https://github.com/KitsuneLab-Development/CS2_DamageInfo) - Shows damage statistics in the game chat.
-- **Statistics System**: [K4-System](https://github.com/KitsuneLab-Development/K4-System) - Tracks and manages player statistics.
-- **MM Ranks**: [K4-System-MMRanks](https://github.com/KitsuneLab-Development/K4-System-MMRanks) - Integrates matchmaking ranks with the K4-System.
+- **Player Ranking**: [Stats](https://github.com/partiusfabaa/cs2-ranks) - Tracks and manages player statistics.
 - **Menu Manager**: [MenuManagerCS2](https://github.com/NickFox007/MenuManagerCS2) - Simplifies the creation and management of in-game menus.
 - **Player Settings**: [PlayerSettingsCS2](https://github.com/NickFox007/PlayerSettingsCS2) - Saves and manages player settings.
 - **Score Reset**: [SimpleResetScore](https://github.com/stefanx111/cs2-SimpleResetScore) - Easily resets the game score.
@@ -51,7 +48,7 @@ Follow these steps to install and configure your CS2 server:
      - `addons/counterstrikesharp/configs/plugins/Advertisement/Advertisement.json` - Configures chat advertisement.
      - `addons/counterstrikesharp/configs/plugins/IksAdmin/IksAdmin.json` - Configures the admin system, including database settings.
      - `addons/counterstrikesharp/configs/plugins/IksAdmin_SocietyLogs/IksAdmin_SocietyLogs.json` - Configures Discord Webhook for logging.
-     - `addons/counterstrikesharp/configs/plugins/K4-System/K4-System.json` - Configures the statistics system, including database settings.
+     - `addons/counterstrikesharp/configs/plugins/RanksCore/ranks.json` - Configures the statistics system, including database settings.
      - `addons/counterstrikesharp/configs/plugins/VIPCore/vip_core.json` - Configures the VIP system, including database integration.
      - `addons/counterstrikesharp/configs/plugins/WeaponPaints/WeaponPaints.json` - Configures the skin selection for weapons and agents using a database.
 
