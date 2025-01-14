@@ -14,14 +14,13 @@
 - **Реклама в чате**: [cs2-advertisement](https://github.com/partiusfabaa/cs2-advertisement) - Отображает пользовательские рекламные сообщения в игровом чате.
 - **AFK Manager**: [AFKManager](https://github.com/NiGHT757/AFKManager) - Автоматически управляет AFK-игроками.
 - **Админка**: [Iks_Admin](https://github.com/Iksix/Iks_Admin) - Предоставляет комплексную систему управления администраторами.
-- **Показ урона в чате**: [CS2_DamageInfo](https://github.com/KitsuneLab-Development/CS2_DamageInfo) - Отображает статистику урона в игровом чате.
+
 - **Система статистики**: [Stats](https://github.com/partiusfabaa/cs2-ranks) - Отслеживает и управляет статистикой игроков.
 - **Менеджер меню**: [MenuManagerCS2](https://github.com/NickFox007/MenuManagerCS2) - Упрощает создание и управление игровыми меню.
 - **PlayerSettings**: [PlayerSettingsCS2](https://github.com/NickFox007/PlayerSettingsCS2) - Сохраняет и управляет настройками игроков.
 - **Обнуление счета**: [SimpleResetScore](https://github.com/stefanx111/cs2-SimpleResetScore) - Легко сбрасывает игровой счет.
 - **Ядро VIP с модулями**: [VIPCore](https://github.com/partiusfabaa/cs2-VIPCore) - Система VIP с настраиваемыми модулями.
 - **Скины на оружие и агентов**: [WeaponPaints](https://github.com/Nereziel/cs2-WeaponPaints) - Добавляет кастомные скины для оружия и агентов.
-- **Ограничение оружия по командам**: [Weapon-restrict-fix](https://github.com/Nip0s/Weapon-restrict-fix) - Ограничивает выбор оружия в зависимости от команды.
 
 ## Требования
 
@@ -45,8 +44,7 @@
    - Отредактируйте следующие конфигурационные файлы под ваши нужды:
      - `cfg/server.cfg` - Основной конфигурационный файл сервера.
      - `addons/counterstrikesharp/configs/plugins/Advertisement/Advertisement.json` - Настройка рекламы в игровом чате.
-     - `addons/counterstrikesharp/configs/plugins/IksAdmin/IksAdmin.json` - Настройка админ-системы, включая параметры базы данных.
-     - `addons/counterstrikesharp/configs/plugins/IksAdmin_SocietyLogs/IksAdmin_SocietyLogs.json` - Настройка Discord Webhook для логирования.
+     - `addons/counterstrikesharp/plugins/IksAdmin/configs/core.json` - Настройка админ-системы, включая параметры базы данных.
      - `addons/counterstrikesharp/configs/plugins/RanksCore/ranks.json` - Настройка системы статистики, включая параметры базы данных.
      - `addons/counterstrikesharp/configs/plugins/VIPCore/vip_core.json` - Настройка VIP-системы, включая интеграцию с базой данных.
      - `addons/counterstrikesharp/configs/plugins/WeaponPaints/WeaponPaints.json` - Настройка выбора скинов для оружия и агентов с использованием базы данных.
