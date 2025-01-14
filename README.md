@@ -14,14 +14,12 @@ The server is equipped with the following plugins and tools:
 - **Chat Advertisement**: [cs2-advertisement](https://github.com/partiusfabaa/cs2-advertisement) - Displays custom advertisement messages in the game chat.
 - **AFK Manager**: [AFKManager](https://github.com/NiGHT757/AFKManager) - Automatically manages AFK players.
 - **Admin System**: [Iks_Admin](https://github.com/Iksix/Iks_Admin) - Provides a comprehensive admin management system.
-- **Damage Info Display in Chat**: [CS2_DamageInfo](https://github.com/KitsuneLab-Development/CS2_DamageInfo) - Shows damage statistics in the game chat.
 - **Player Ranking**: [Stats](https://github.com/partiusfabaa/cs2-ranks) - Tracks and manages player statistics.
 - **Menu Manager**: [MenuManagerCS2](https://github.com/NickFox007/MenuManagerCS2) - Simplifies the creation and management of in-game menus.
 - **Player Settings**: [PlayerSettingsCS2](https://github.com/NickFox007/PlayerSettingsCS2) - Saves and manages player settings.
 - **Score Reset**: [SimpleResetScore](https://github.com/stefanx111/cs2-SimpleResetScore) - Easily resets the game score.
 - **VIP Core with Modules**: [VIPCore](https://github.com/partiusfabaa/cs2-VIPCore) - A VIP system with customizable modules.
 - **Weapon and Agent Skins**: [WeaponPaints](https://github.com/Nereziel/cs2-WeaponPaints) - Adds custom skins for weapons and agents.
-- **Team-Based Weapon Restrictions**: [Weapon-restrict-fix](https://github.com/Nip0s/Weapon-restrict-fix) - Restricts weapon selection based on team.
 
 ## Requirements
 
@@ -46,8 +44,7 @@ Follow these steps to install and configure your CS2 server:
    - Edit the following configuration files according to your needs:
      - `cfg/server.cfg` - The main server configuration file.
      - `addons/counterstrikesharp/configs/plugins/Advertisement/Advertisement.json` - Configures chat advertisement.
-     - `addons/counterstrikesharp/configs/plugins/IksAdmin/IksAdmin.json` - Configures the admin system, including database settings.
-     - `addons/counterstrikesharp/configs/plugins/IksAdmin_SocietyLogs/IksAdmin_SocietyLogs.json` - Configures Discord Webhook for logging.
+     - `addons/counterstrikesharp/plugins/IksAdmin/configs/core.json` - Configures the admin system, including database settings.
      - `addons/counterstrikesharp/configs/plugins/RanksCore/ranks.json` - Configures the statistics system, including database settings.
      - `addons/counterstrikesharp/configs/plugins/VIPCore/vip_core.json` - Configures the VIP system, including database integration.
      - `addons/counterstrikesharp/configs/plugins/WeaponPaints/WeaponPaints.json` - Configures the skin selection for weapons and agents using a database.
