@@ -1,6 +1,6 @@
 {
-    "resetscore.resetscore.onlyvips": "Эта команда предназначена только для vips!",
-    "resetscore.setscore.onlyadmins": "Эта команда предназначена только для администраторов!",
-    "resetscore.resetscore.message": "Ваш счет был обнулен!",
-    "resetscore.setscore.message": "{Gold}{0:s}{Default} счет открыт!"
-} 
+    "resetscore.resetscore.onlyvips": "Эта команда доступна только для VIP-пользователей!",
+    "resetscore.setscore.onlyadmins": "Эта команда доступна только для администраторов!",
+    "resetscore.resetscore.message": "Ваш счет был сброшен!",
+    "resetscore.setscore.message": "{Gold}{0:s}{Default} счет был установлен!"
+}

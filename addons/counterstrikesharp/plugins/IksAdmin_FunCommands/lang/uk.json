@@ -1,0 +1,87 @@
+{
+    "MenuTitle.FunCommands": "Додаткові функції",
+    "MenuOption.RConVar": "CVar для гравця",
+    "MenuOption.Noclip": "Noclip",
+    "MenuOption.SetMoney": "Встановити гроші",
+    "MenuOption.AddMoney": "Видати гроші",
+    "MenuOption.TakeMoney": "Зняти гроші",
+    "MenuOption.SetHp": "Встановити ХП",
+    "MenuOption.SetSpeed": "Встановити швидкість",
+    "MenuOption.SetScale": "Встановити розмір",
+    "Message.RConVar": "{red}RConVar{white} встановлено для гравця {target}",
+    "Message.Noclip": "{red}Noclip{white} встановлено в значення {red}{value}{white} для гравця {red}{target}",
+    "Message.SetMoney": "Гроші встановлено на {red}{value}{white} для гравця {red}{target}",
+    "Message.AddMoney": "Видано {red}{value}{white} грошей для гравця {red}{target}",
+    "Message.TakeMoney": "Знято {red}{value}{white} грошей у гравця {red}{target}",
+    "Message.Slap": "Гравець {red}{target}{white} ляснутий",
+    "Message.SetHp": "Гравцю {red}{target}{white} встановлено {red}{value} ХП",
+    "Message.SetSpeed": "Гравцю {red}{target}{white} встановлено швидкість: {red}{value}",
+    "Message.SetScale": "Гравцю {red}{target}{white} встановлено розмір: {red}{value}",
+    "Request.RConVar1": "Введіть квар: !<noclip>",
+    "Request.RConVar2": "Введіть значення: !<true>",
+    "Request.MoneyAmount": "Введіть кількість грошей: {red}!<123(ціле число)>",
+    "Request.HpAmount": "Введіть кількість ХП: {red}!<100(ціле число)>",
+    "Request.Speed": "Введіть швидкість: {red}!<5(число)>",
+    "Request.Scale": "Введіть розмір: {red}!<5(число)>",
+    "Error.TargetNotFound": "Ціль не знайдена",
+    "Error.TargetMustBeAlive": "Ціль повинна бути живою",
+    "Error.NotEnoughPermission": "Немає прав для взаємодії з гравцем {red}{target}",
+
+    // === [1.0.1] ===
+    "MenuTitle.SelectPosition" : "Виберіть позицію",
+    "MenuOption.SavePosition" : "Зберегти позицію",
+    "MenuOption.Teleport" : "Телепортація",
+    "MenuOption.PingTp" : "Телепортація на мітку",
+
+    "Message.TeleportTo" : "Гравець {red}{target}{white} телепортований до позиції: {red}{key}",
+    "Message.PositionSaved" : "Позицію {red}{key}{white} збережено!",
+    "Message.TurnTeleportOnPing" : "Телепортацію на мітку для гравця {red}{target}{white} встановлено в значення: {red}{value}",
+
+    "Request.PositionKey" : "Введіть ключ для позиції: {red}!назва",
+
+    "Error.UndefinedPosition" : "Позицію з таким ключем не знайдено",
+    
+    // === [1.0.4] ===
+    "MenuOption.SetCustomDamage" : "Встановити кастомну шкоду",
+    "MenuOption.SetBonusDamage" : "Встановити бонусну шкоду",
+    "MenuOption.SetShootSpeed" : "Встановити швидкість стрільби",
+    "MenuOption.SetMaxAmmo" : "Встановити макс. кількість патронів",
+    "MenuOption.SetNoRecoil" : "Прибрати віддачу", // Фактично просто сильно зменшує її, я не знайшов способу повністю прибрати (Тому що з клієнтом не можна взаємодіяти) =(
+
+    "Message.ShootSpeed" : "Швидкість стрільби для {red}{weapon}{white}: {red}{value}",
+    "Message.BonusDamage" : "Бонусна шкода {red}{weapon}{white}: {red}{value}",
+    "Message.CustomDamage" : "Шкода для {red}{weapon}{white}: {red}{value}",
+    "Message.MaxAmmo" : "Макс. кількість патронів для {red}{weapon}{white}: {red}{value}",
+    "Message.NoRecoil" : "Віддача для гравця {red}{target}{white}: {red}{value}",
+
+    "Request.ShootSpeed" : "Введіть швидкість стрільби для {red}{weapon}{white}: {red}!<0,1(число)/default>",
+    "Request.BonusDamage" : "Введіть бонусну шкоду для {red}{weapon}{white}: {red}!<10(ціле число)/default>",
+    "Request.CustomDamage" : "Введіть шкоду для {red}{weapon}{white}: {red}!<10(ціле число)/default>",
+    "Request.MaxAmmo" : "Введіть макс. кількість патронів для {red}{weapon}{white}: {red}!<100(ціле число)/default>",
+
+    "Error.MustHandleWeapon" : "{red}Ціль повинна тримати зброю в руках!",
+
+    // === [1.0.5] ===
+    "MenuOption.Slap" : "Шльопнути гравця",
+
+    // === [1.0.6] ===
+
+    "MenuTitle.SpecialTargets" : "Виберіть цілі:",
+    "MenuTitle.SelectWeapon" : "Виберіть зброю:",
+
+    "MenuOption.SpecialTargets" : "Спеціальний вибір",
+    "MenuOption.Freeze" : "Заморозити гравця",
+    "MenuOption.Unfreeze" : "Розморозити гравця",
+    "MenuOption.GiveWeapon" : "Видати зброю",
+
+    "MenuOption.Me" : "Ви",
+    "MenuOption.CT" : "Спецназ",
+    "MenuOption.T" : "Терористи",
+    "MenuOption.All" : "Усі",
+
+    "Message.Freeze" : "Гравця {red}{name} {white}заморожено!",
+    "Message.Unfreeze" : "Гравця {red}{name} {white}розморожено!",
+    "Message.GiveWeapon" : "Гравцеві {red}{name} видано зброю: {value}",
+
+    "Error.WeaponNotFound" : "{red}Зброю {white}{value}{red} не знайдено!"
+}

@@ -1,0 +1,12 @@
+{
+    "MenuTitle.SelectPlayer" : "Выберите игрока",
+    "MenuTitle.SelectGroup" : "Выберите группу",
+    "Message.WriteTime" : "Укажите время в минутах: {red}!1440",
+    "MenuTitle.VipManage" : "Управление VIP",
+    "MenuTitle.VipGive" : "Выдача VIP",
+    "MenuOption.VipManage" : "Управление VIP",
+    "MenuOption.Give" : "Выдать",
+
+    "MenuOption.Expires" : "Истекает: {date}",
+    "MenuOption.Group" : "Группа: {group}"
+}

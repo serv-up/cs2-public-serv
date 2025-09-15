@@ -1,0 +1,12 @@
+{
+    "MenuTitle.SelectPlayer": "Виберіть гравця",
+    "MenuTitle.SelectGroup": "Виберіть групу",
+    "Message.WriteTime": "Вкажіть час у хвилинах: {red}!1440",
+    "MenuTitle.VipManage": "Керування VIP",
+    "MenuTitle.VipGive": "Видача VIP",
+    "MenuOption.VipManage": "Керування VIP",
+    "MenuOption.Give": "Видати",
+
+    "MenuOption.Expires": "Закінчується: {date}",
+    "MenuOption.Group": "Група: {group}"
+}

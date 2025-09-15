@@ -1,0 +1,68 @@
+{
+  "TitleToTextInReasons": true,
+  "BanOnAllServers" : false,
+  "BlockedIdentifiers": [ 
+    "@all",
+    "@ct",
+    "@t",
+    "@players",
+    "@spec",
+    "@bot"
+  ],
+  "UnblockBlockedIdentifiers": [
+    "@all",
+    "@ct",
+    "@t",
+    "@players",
+    "@spec",
+    "@bot"
+  ],
+  "Reasons": [
+    {
+      "Title": "Оскорбление",
+      "Text": "Оскорбление", 
+      "MinTime": 0,
+      "MaxTime": 20,
+      "Duration": 60,
+      "BanOnAllServers": true,
+      "HideFromMenu": false
+    },
+    {
+      "Title": "Флуд",
+      "Text": "Флуд",
+      "MinTime": 0,
+      "MaxTime": 0,
+      "Duration": 5,
+      "BanOnAllServers": true,
+      "HideFromMenu": false
+    },
+    {
+      "Title": "Политические обсуждения",
+      "Text": "Политические обсуждения",
+      "MinTime": 0,
+      "MaxTime": 0,
+      "Duration": 30,
+      "BanOnAllServers": true,
+      "HideFromMenu": false
+    },
+    {
+      "Title": "Попрошайничество",
+      "Text": "Попрошайничество",
+      "MinTime": 0,
+      "MaxTime": 0,
+      "Duration": 30,
+      "BanOnAllServers": true,
+      "HideFromMenu": false
+    }
+  ],
+  "Times": {
+    "1": "1 мин",
+    "5": "5 мин",
+    "30": "30 мин",
+    "60": "1 час",
+    "1440": "1 день",
+    "10080": "1 неделя",
+    "43800": "1 месяц",
+    "0": "Навсегда"
+  }
+}

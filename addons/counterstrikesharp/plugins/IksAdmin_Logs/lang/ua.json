@@ -1,0 +1,16 @@
+{
+    "commandUsed" : "**Дія** \nАдмін: {admin}\nКоманда: {cmd}",
+    "ban" : "**Бан додано** \nАдмін: {admin}\nНік гравця: {target}\nSteamId64: {targetId}\nIP: {targetIp}\nПричина: {reason}\nТривалість: {duration}\nЗакінчується: {end}\nТип бана: {type}",
+    "unban" : "**Бан знято** \nАдмін: {admin}\nНік гравця: {target}\nSteamId64: {targetId}\nТип бана: {type}",
+    "comm" : "**Блокування чату** \n **Тип: {type}** \nАдмін: {admin}\nНік гравця: {target}\nSteamId64: {targetId}\nПричина: {reason}\nТривалість: {duration}\nЗакінчується: {end}",
+    "uncomm" : "**Блокування чату знято** \n **Тип: {type}** \nАдмін: {admin}\nНік гравця: {target}\nSteamId64: {targetId}",
+    "slay" : "**Гравця вбито** \nАдмін: {admin}\nНік гравця: {target}\nSteamId64: {targetId}",
+    "kick" : "**Гравця кікнуто** \nАдмін: {admin}\nНік гравця: {target}\nSteamId64: {targetId}\nПричина: {reason}",
+    "adminadd" : "**Додано нового адміна!** \nНік гравця: {admin} \nSteamId64: {adminId}\nФлаги: {flags}\nІмунітет: {immunity}\nНазва групи: {group}\nЗакінчується: {end}",
+    "admindel" : "**Адміна видалено!** \nНік гравця: {admin} \nSteamId64: {adminId}\nФлаги: {flags}\nІмунітет: {immunity}\nЗакінчується: {end} \nНазва групи: {group}",
+    "switchTeam" : "**Гравця змінено команду**\nАдмін: {admin}\nНік гравця: {target}\nSteamId64: {targetId}\nНова команда: {team}",
+    "changeTeam" : "**Гравця переміщено**\nАдмін: {admin}\nНік гравця: {target}\nSteamId64: {targetId}\nНова команда: {team}",
+
+    "NEVER" : "НІКОЛИ",
+    "NONE" : "ЖОДЕН"
+}

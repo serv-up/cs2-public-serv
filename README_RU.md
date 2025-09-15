@@ -10,7 +10,6 @@
 
 - **Metamod**: [Metamod:Source](https://www.metamodsource.net/downloads.php/?branch=master) - Мощный фреймворк для плагинов для игр на движке Source.
 - **CounterStrikeSharp**: [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) - Обширный API для разработки плагинов для CS2.
-- **ServerListPlayersFix**: [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) - Исправляет проблемы с отображением количества игроков в списке серверов.
 - **Реклама в чате**: [cs2-advertisement](https://github.com/partiusfabaa/cs2-advertisement) - Отображает пользовательские рекламные сообщения в игровом чате.
 - **AFK Manager**: [AFKManager](https://github.com/NiGHT757/AFKManager) - Автоматически управляет AFK-игроками.
 - **Админка**: [Iks_Admin](https://github.com/Iksix/Iks_Admin) - Предоставляет комплексную систему управления администраторами.
@@ -44,7 +43,9 @@
    - Отредактируйте следующие конфигурационные файлы под ваши нужды:
      - `cfg/server.cfg` - Основной конфигурационный файл сервера.
      - `addons/counterstrikesharp/configs/plugins/Advertisement/Advertisement.json` - Настройка рекламы в игровом чате.
-     - `addons/counterstrikesharp/plugins/IksAdmin/configs/core.json` - Настройка админ-системы, включая параметры базы данных.
+     - `addons/counterstrikesharp/configs/plugins/IksAdmin/core.json` - Настройка админ-системы, включая параметры базы данных.
+     - `addons/counterstrikesharp/configs/plugins/IksAdmin_Modules` - Модули админ-системы, включая параметры базы данных.
+     - `addons/counterstrikesharp/configs/plugins/LogsCore/LogsCore.json` - Логирование действия админов и банов.
      - `addons/counterstrikesharp/configs/plugins/RanksCore/ranks.json` - Настройка системы статистики, включая параметры базы данных.
      - `addons/counterstrikesharp/configs/plugins/VIPCore/vip_core.json` - Настройка VIP-системы, включая интеграцию с базой данных.
      - `addons/counterstrikesharp/configs/plugins/WeaponPaints/WeaponPaints.json` - Настройка выбора скинов для оружия и агентов с использованием базы данных.
@@ -61,12 +62,11 @@
 
 Здесь собрана базовая конфигурация сервера, которую вы можете дополнить различными функциями в зависимости от ваших потребностей. Однако, если вы хотите создать качественную и продуманную сборку сервера, обращайтесь к нам — мы рады помочь каждому. Подробнее на нашем сайте: [servup.net](https://servup.net).
 
-Для того чтобы найти нужный плагин и следить за его обновлениями, присоединяйтесь к нашему Discord-каналу: [https://discord.gg/servup](https://discord.gg/servup).
+Для того чтобы найти нужный плагин и следить за его обновлениями, присоединяйтесь к нашему Discord-каналу: [https://servup.net/discord](https://servup.net/discord]).
 
 ## Ищем возможности
 
 Если вам нужен опытный разработчик для ваших проектов, свяжитесь со мной:
 
-- **Discord**: [https://discord.gg/servup](https://discord.gg/servup)
-- **Telegram**: [https://t.me/serv_up](https://t.me/serv_up)
-- **Steam**: [https://steamcommunity.com/id/nex-end/](https://steamcommunity.com/id/nex-end/)
+- **Discord**: [https://servup.net/discord](https://servup.net/discord])
+- **Telegram**: [https://t.me/servup](https://t.me/servup)

@@ -1,0 +1,56 @@
+{
+  "ServerId": 1, // ID сервера, только число, ОДИНАКОВЫХ ID БЫТЬ НЕ ДОЛЖНО
+  "ServerIp": "", // Указываете IP:PORT сервера
+  "ServerName": "Public | ServUp", // Название сервера отображаемое в базе данных
+  "RconPassword": "6fhasfh3w6r23rwsjfsdjnm", // Rcon пароль (ОБЯЗАТЕЛЬНО)
+  "IgnoreExpiredAdminsInAmMenu": true, // Включает игнорирование истёкших админов в меню управления админами
+
+  "Host": "",
+  "Database": "",
+  "User": "",
+  "Password": "",
+  "Port": "3306",
+
+  "BlockedIdentifiers": { // Блокирует идентификаторы для некоторых команд в которых они доступны
+    "css_slay": [
+      "@all"
+    ]
+  },
+  "CommandReplacement": { // Позволяет заменить название команды
+    //  "css_respawn" : "css_arespawn" //например
+  },
+  "MaxWarns": 3, // Максимальное число варнов при котором отключается админка
+  "WebApiKey": "", // Указываете свой WebApiKey - нужен для того что бы брать ники из стима при оффлайн бане https://steamcommunity.com/dev/apikey
+  "AdvancedKick": true, // Показывать ли табличку перед киком игрока с сервера (Кик, Бан)
+  "AdvancedKickTime": 5, // Время через которое игрока кикнет
+  "DebugMode": false, // Дебаг мод, не включайте если не знаете для чего (МНОГО СПАМА В КОНСОЛЬ)
+  "MenuType": 3, // -1 = Default(Player select) [MM] | 0 = ChatMenu | 1 = ConsoleMenu | 2 = HtmlMenu | 3 = ButtonMenu [MM] (MM - MenuManager)
+  "PunishmentMessagesType": 2, // 0 - Сообщение о наказании(Бан/Мут/Гаг) отправляется всем игрокам, 1 - только Админу и Цели, 2 - Только Админам и Цели
+  "PermissionReplacement": { // Замена дефолтных флагов прав
+    "fun_commands.slap": "z",
+    "fun_commands.noclip": "z",
+    "fun_commands.hp": "z",
+    "fun_commands.speed": "z",
+    "fun_commands.scale": "z",
+    "fun_commands.set_money": "z",
+    "fun_commands.tp": "z",
+    "fun_commands.pingtp": "z",
+    "fun_commands.add_damage": "z",
+    "fun_commands.set_damage": "z",
+    "fun_commands.max_ammo": "z",
+    "fun_commands.no_recoil": "z",
+    "fun_commands.freeze": "z",
+    "fun_commands.give": "z",
+    "blocks_manage.ban_ip": "z"
+     // "admins_manage.list": "l" // в таком случае команду css_am_list можно использовать с флагом l
+  },
+  "IgnoreCommandsRegistering": [ // Эти команды не будут регестрироватся через API админки (писать без css_ префикса)
+    // "admin" // если так сделать команды css_admin просто не будет
+  ],
+  "MirrorsIp": [ // Айпи зеркал, будут игнорироватся плагином
+],
+  "LastPunishmentTime": 172800, // Последние наказания за это время буду отображаться в снятии бана и оффлайн наказаний в ообщем (в секундах)
+  "UseOnlineAdminsName": true, // Использовать ли текущий ник админа если он онлайн (Для Announce)
+  "IgnoreAdminServers": false, // Если true - не важно какие севрера указаны у админа, у него всё равно будут права на этом сервере
+  "AutoUpdateDatabaseNames": true // Обновлять ли ники админов в базе данных на текущие при подключении
+}

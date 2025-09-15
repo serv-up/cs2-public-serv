@@ -1,0 +1,14 @@
+{
+    "Templates.FromAdminToAdmins" : "{green}[Админ Чат] {name}: {white}{msg}",
+    "Templates.FromAdminToPlayers" : "{green}[От Админа]: {white}{msg}", // Так же может использоваться {admin} для имени админа
+    "Templates.FromPlayerToAdmins" : "{green}[От Игрока] {name}: {white}{msg}", 
+    "Message.CantSendMessageToAdmins" : "{red}Вы не можете отправить сообщение админам.",
+
+    "Templates.Psay" : "{green}[ЛС] {name}: {white}{msg}",
+    "Templates.PsayToSender" : "{green}[ЛС: {target}] {name}: {white}{msg}",
+    "Templates.Reply" : "{green}[Ответ] {name}: {white}{msg}",
+    "Message.NoLastMessage" : "{red}Нет последнего сообщения для ответа."
+
+
+
+}

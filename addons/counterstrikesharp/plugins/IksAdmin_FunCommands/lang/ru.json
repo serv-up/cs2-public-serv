@@ -1,0 +1,92 @@
+﻿{
+    "MenuTitle.FunCommands" : "Дополнительные функции",
+
+    "MenuOption.RConVar" : "CVar для игрока",
+    "MenuOption.Noclip" : "Noclip",
+    "MenuOption.SetMoney" : "Установить деньги",
+    "MenuOption.AddMoney" : "Выдать деньги",
+    "MenuOption.TakeMoney" : "Снять деньги",
+    "MenuOption.SetHp" : "Установить ХП",
+    "MenuOption.SetSpeed" : "Установить скорость",
+    "MenuOption.SetScale" : "Установить размер",
+
+    "Message.RConVar" : "{red}RConVar{white} установлено для игрока {target}",
+    "Message.Noclip" : "{red}Noclip{white} установлен в значение {red}{value}{white} для игрока {red}{target}",
+    "Message.SetMoney" : "Деньги установлены на {red}{value}{white} для игрока {red}{target}",
+    "Message.AddMoney" : "Выдано {red}{value}{white} денег для игрока {red}{target}",
+    "Message.TakeMoney" : "Снято {red}{value}{white} денег у игрока {red}{target}",
+    "Message.Slap" : "Игрок {red}{target}{white} шлёпнут",
+    "Message.SetHp" : "Игроку {red}{target}{white} установлено {red}{value}ХП",
+    "Message.SetSpeed" : "Игроку {red}{target}{white} установлена скорость: {red}{value} ",
+    "Message.SetScale" : "Игроку {red}{target}{white} установлен размер: {red}{value} ",
+
+    "Request.RConVar1" : "Введите квар: !<noclip>",
+    "Request.RConVar2" : "Введите значение: !<true>",
+
+    "Request.MoneyAmount" : "Введите кол-во денег: {red}!<123(целое число)>",
+    "Request.HpAmount" : "Введите кол-во ХП: {red}!<100(целое число)>",
+    "Request.Speed" : "Введите скорость: {red}!<5(число)>",
+    "Request.Scale" : "Введите размер: {red}!<5(число)>",
+
+    "Error.TargetNotFound" : "Цель не найдена",
+    "Error.TargetMustBeAlive" : "Цель должна быть жива",
+    "Error.NotEnoughPermission" : "Нет прав для взаимодействия с игроком {red}{target}",
+
+    // === [1.0.1] ===
+    "MenuTitle.SelectPosition" : "Выберите позицию",
+    "MenuOption.SavePosition" : "Сохранить позицию",
+    "MenuOption.Teleport" : "Телепорт",
+    "MenuOption.PingTp" : "Телепорт на метку",
+
+    "Message.TeleportTo" : "Игрок {red}{target}{white} телепортирован в позицию: {red}{key} ",
+    "Message.PositionSaved" : "Позиция {red}{key}{white} сохранена!",
+    "Message.TurnTeleportOnPing" : "Телепорт на метку для игрока {red}{target}{white} установлен в значение: {red}{value}",
+
+    "Request.PositionKey" : "Введите ключ для позиции: {red}!название",
+
+    "Error.UndefinedPosition" : "Позиция с этим ключом не найдена",
+
+    // === [1.0.4] ===
+    "MenuOption.SetCustomDamage" : "Установить кастомный урон",
+    "MenuOption.SetBonusDamage" : "Установить бонусный урон",
+    "MenuOption.SetShootSpeed" : "Установить скорость стрельбы",
+    "MenuOption.SetMaxAmmo" : "Установить макс. кол-во патронов",
+    "MenuOption.SetNoRecoil" : "Убрать отдачу", // По факту просто сильно уменьшает, я не нашёл способа полностью убрать её (Потому что с клинтом нельзя взаимодействовать) =( 
+
+    "Message.ShootSpeed" : "Скорость стрельбы для {red}{weapon}{white}: {red}{value}",
+    "Message.BonusDamage" : "Бонусный урон {red}{weapon}{white}: {red}{value}",
+    "Message.CustomDamage" : "Урон для {red}{weapon}{white}: {red}{value}",
+    "Message.MaxAmmo" : "Макс. кол-во патронов для {red}{weapon}{white}: {red}{value}",
+    "Message.NoRecoil" : "Отдача для игрока {red}{target}{white}: {red}{value}",
+
+    "Request.ShootSpeed" : "Введите скорость стрельбы для {red}{weapon}{white}: {red}!<0,1(число)/default>",
+    "Request.BonusDamage" : "Введите бонусный урон для {red}{weapon}{white}: {red}!<10(целое число)/default>",
+    "Request.CustomDamage" : "Введите урон для {red}{weapon}{white}: {red}!<10(целое число)/default>",
+    "Request.MaxAmmo" : "Введите макс. кол-во патронов для {red}{weapon}{white}: {red}!<100(целое число)/default>",
+
+    "Error.MustHandleWeapon" : "{red}Цель должна держать оружие в руках!",
+    
+    // === [1.0.5] ===
+    "MenuOption.Slap" : "Шлёпнуть игрока",
+    
+    // === [1.0.6] ===
+
+    "MenuTitle.SpecialTargets" : "Выберите цели:",
+    "MenuTitle.SelectWeapon" : "Выберите оружие:",
+    
+    "MenuOption.SpecialTargets" : "Специальный выбор",
+    "MenuOption.Freeze" : "Заморозить игрока",
+    "MenuOption.Unfreeze" : "Разморозить игрока",
+    "MenuOption.GiveWeapon" : "Выдать оружие",
+    
+    "MenuOption.Me" : "Вы",
+    "MenuOption.CT" : "Спецназ",
+    "MenuOption.T" : "Террористы",
+    "MenuOption.All" : "Все",
+
+    "Message.Freeze" : "Игрок {red}{name} {white}заморожен!",
+    "Message.Unfreeze" : "Игрок {red}{name} {white}разморожен!",
+    "Message.GiveWeapon" : "Игроку {red}{name} выдано оружие: {value}",
+    
+    "Error.WeaponNotFound" : "{red}Оружие {white}{value}{red} не найдено!"
+}

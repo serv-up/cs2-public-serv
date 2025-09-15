@@ -1,0 +1,2 @@
+2025-09-13 23:49:57.686 +03:00 [INFO] plugin:CS2InstantDefuse Plugin: CS2InstantDefuse - Version: 1.3.1 by LordFetznschaedl & Armatura (refactor)
+2025-09-13 23:49:57.690 +03:00 [INFO] plugin:CS2InstantDefuse Simple Plugin that allowes the bomb to be instantly defused when no enemy is alive (configurable) and no utility is in use (configurable)

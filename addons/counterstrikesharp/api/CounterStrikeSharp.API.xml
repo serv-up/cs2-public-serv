@@ -127,7 +127,7 @@
         </member>
         <member name="M:CounterStrikeSharp.API.Core.BasePlugin.RegisterAttributeHandlers(System.Object)">
             <summary>
-            Registers all game event handlers that are decorated with the <see cref="T:CounterStrikeSharp.API.Core.Attributes.Registration.GameEventHandlerAttribute"/> attribute.
+            Registers all game event handlers that are decorated with the <see cref="T:CounterStrikeSharp.API.Core.Attributes.Registration.GameEventHandlerAttribute"/> and <see cref="T:CounterStrikeSharp.API.Core.Attributes.Registration.ListenerHandlerAttribute`1"/> attribute.
             </summary>
             <param name="instance">The instance of the object where the event handlers are defined.</param>
         </member>
@@ -241,7 +241,7 @@
             </summary>
         </member>
         <member name="F:CounterStrikeSharp.API.Core.FunctionLifetime.SingleUse">
-            <summary>Delegate will be removed after the first invocation.</summary> 
+            <summary>Delegate will be removed after the first invocation.</summary>
         </member>
         <member name="F:CounterStrikeSharp.API.Core.FunctionLifetime.Permanent">
             <summary>Delegate will remain in memory for the lifetime of the application (or until <see cref="M:CounterStrikeSharp.API.Core.FunctionReference.Remove(System.Int32)"/> is called).</summary>
@@ -440,6 +440,16 @@
             This handler should avoid containing expensive operations.
             </summary>
         </member>
+        <member name="T:CounterStrikeSharp.API.Core.Listeners.OnServerPreEntityThink">
+            <summary>
+            Called on every server frame before entities think.
+            </summary>
+        </member>
+        <member name="T:CounterStrikeSharp.API.Core.Listeners.OnServerPostEntityThink">
+            <summary>
+            Called on every server frame after entities think.
+            </summary>
+        </member>
         <member name="T:CounterStrikeSharp.API.Core.Listeners.OnMapStart">
             <summary>
             Called when a new map is loaded.
@@ -542,9 +552,44 @@
             </summary>
             <param name="manifest">Resource Manifest</param>
         </member>
+        <member name="T:CounterStrikeSharp.API.Core.Listeners.CheckTransmit">
+            <summary>
+            Called when checking transmit on entities.
+            </summary>
+            <param name="infoList">Transmit info list</param>
+        </member>
+        <member name="T:CounterStrikeSharp.API.Core.Listeners.OnPlayerButtonsChanged">
+            <summary>
+            Called in the entity pre-think when the player's buttons have changed.
+            </summary>
+            <param name="player"></param>
+            <param name="pressed"></param>
+            <param name="released"></param>
+        </member>
+        <member name="T:CounterStrikeSharp.API.Core.Listeners.OnPlayerChat">
+            <summary>
+            Called when a player sends a chat message.
+            </summary>
+            <param name="player">The player who sent the chat message.</param>
+            <param name="message">The content of the chat message.</param>
+            <param name="teamChat">If the chat message was sent to team only.</param>
+        </member>
+        <member name="T:CounterStrikeSharp.API.Core.Listeners.OnMetamodAllPluginsLoaded">
+            <summary>
+            Called when all metamod plugins are loaded.
+            </summary>
+        </member>
         <member name="M:CounterStrikeSharp.API.Core.CBaseEntity.Teleport(CounterStrikeSharp.API.Modules.Utils.Vector,CounterStrikeSharp.API.Modules.Utils.QAngle,CounterStrikeSharp.API.Modules.Utils.Vector)">
             <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
-            <exception cref="T:System.ArgumentNullException">No valid argument</exception>
+            <exception cref="T:System.ArgumentNullException">At least one parameter must be specified</exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.CBaseEntity.Teleport(System.Nullable{System.Numerics.Vector3},System.Nullable{System.Numerics.Vector3},System.Nullable{System.Numerics.Vector3})">
+            <summary>
+            Teleports the entity to the specified position, angles, and velocity using Vector3 parameters.
+            This overload is optimized for memory efficiency by directly working with a Vector3 struct.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+            <exception cref="T:System.ArgumentException">At least one parameter must be specified</exception>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CBaseEntity.DispatchSpawn">
             <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
@@ -559,6 +604,16 @@
             Shorthand for accessing an entity's CBodyComponent?.SceneNode?.AbsRotation;
             </summary>
             <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.CBaseEntity.EmitSound(System.String,CounterStrikeSharp.API.Modules.Utils.RecipientFilter,System.Single,System.Single)">
+            <summary>
+            Emit a soundevent to all players.
+            </summary>
+            <param name="soundEventName">The name of the soundevent to emit.</param>
+            <param name="recipients">The recipients of the soundevent.</param>
+            <param name="volume">The volume of the soundevent.</param>
+            <param name="pitch">The pitch of the soundevent.</param>
+            <returns>The sound event guid.</returns>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CBaseModelEntity.SetModel(System.String)">
             <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
@@ -580,6 +635,30 @@
             </summary>
             <param name="weapon"></param>
             <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="F:CounterStrikeSharp.API.Core.CCheckTransmitInfo.TransmitEntities">
+            <summary>
+            Entity n is already marked for transmission
+            </summary>
+        </member>
+        <member name="F:CounterStrikeSharp.API.Core.CCheckTransmitInfo.TransmitAlways">
+            <summary>
+            Entity n is always send even if not in PVS (HLTV and Replay only)
+            </summary>
+        </member>
+        <member name="P:CounterStrikeSharp.API.Core.CCheckTransmitInfoList.Item(System.Int32)">
+            <summary>
+            Get transmit info for the given index.
+            </summary>
+            <param name="index">Index of the info you want to retrieve from the list, should be between 0 and '<see cref="P:CounterStrikeSharp.API.Core.CCheckTransmitInfoList.Count"/>' - 1</param>
+            <returns></returns>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Core.CCheckTransmitInfoList.Get(System.Int32)">
+            <summary>
+            Get transmit info for the given index.
+            </summary>
+            <param name="index">Index of the info you want to retrieve from the list, should be between 0 and '<see cref="P:CounterStrikeSharp.API.Core.CCheckTransmitInfoList.Count"/>' - 1</param>
+            <returns></returns>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.CCSGameRules.TerminateRound(System.Single,CounterStrikeSharp.API.Modules.Entities.Constants.RoundEndReason)">
             <summary>
@@ -789,12 +868,14 @@
             </summary>
             <exception cref="T:System.InvalidOperationException">GameSceneNode points to null</exception>
         </member>
-        <member name="T:CounterStrikeSharp.API.Core.CVariant">
+        <member name="M:CounterStrikeSharp.API.Core.CTakeDamageInfo.GetHitGroup">
             <summary>
-            Placeholder for CVariant
-            <see href="https://github.com/alliedmodders/hl2sdk/blob/cs2/public/variant.h"/>
-            <remarks>A lot of entity outputs do not use this value</remarks>
+            Retrieves the hitgroup
             </summary>
+            <returns>
+            Returns a <see cref="T:CounterStrikeSharp.API.Core.HitGroup_t"/> enumeration representing the player's current hit group,
+            or <see cref="F:CounterStrikeSharp.API.Core.HitGroup_t.HITGROUP_INVALID"/> if the hit group cannot be determined.
+            </returns>
         </member>
         <member name="M:CounterStrikeSharp.API.Core.Translations.LocalizerExtensions.ForPlayer(Microsoft.Extensions.Localization.IStringLocalizer,CounterStrikeSharp.API.Core.CCSPlayerController,System.String)">
             <summary>
@@ -1339,6 +1420,21 @@
             Development universe.
             </summary>
         </member>
+        <member name="P:CounterStrikeSharp.API.Modules.Events.EventPlayerChat.Teamonly">
+            <summary>
+            If this chat message was sent to team only
+            </summary>
+        </member>
+        <member name="P:CounterStrikeSharp.API.Modules.Events.EventPlayerChat.Userid">
+            <summary>
+            The user ID of the player who sent the chat message
+            </summary>
+        </member>
+        <member name="P:CounterStrikeSharp.API.Modules.Events.EventPlayerChat.Text">
+            <summary>
+            The text content of the chat message
+            </summary>
+        </member>
         <member name="M:CounterStrikeSharp.API.Modules.Events.GameEvent.Free">
             <summary>
             Used to manually free the event.
@@ -1349,6 +1445,27 @@
             <summary>
             <inheritdoc cref="M:CounterStrikeSharp.API.Modules.Utils.ChatColors.ForPlayer(CounterStrikeSharp.API.Core.CCSPlayerController)"/>
             </summary>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Modules.Extensions.PluginConfigExtensions.GetConfigPath``1(``0)">
+            <summary>
+            Gets the configuration file path
+            </summary>
+            <typeparam name="T">Type of the plugin configuration.</typeparam>
+            <param name="_">Current configuration instance</param>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Modules.Extensions.PluginConfigExtensions.Update``1(``0)">
+            <summary>
+            Updates the configuration file
+            </summary>
+            <typeparam name="T">Type of the plugin configuration.</typeparam>
+            <param name="config">Current configuration instance</param>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Modules.Extensions.PluginConfigExtensions.Reload``1(``0)">
+            <summary>
+            Reloads the configuration file and updates current configuration instance.
+            </summary>
+            <typeparam name="T">Type of the plugin configuration.</typeparam>
+            <param name="config">Current configuration instance</param>
         </member>
         <member name="M:CounterStrikeSharp.API.Modules.Extensions.TeamExtensions.GetChatColor(CounterStrikeSharp.API.Modules.Utils.CsTeam)">
             <summary>
@@ -1681,6 +1798,11 @@
             </summary>
             <remarks>Increments even when server is hibernating</remarks>
         </member>
+        <member name="P:CounterStrikeSharp.API.Server.FrameTime">
+            <summary>
+            Returns the time spent on last server or client frame
+            </summary>
+        </member>
         <member name="M:CounterStrikeSharp.API.Server.RunOnTickAsync(System.Int32,System.Action)">
             <summary>
             <inheritdoc cref="M:CounterStrikeSharp.API.Server.RunOnTick(System.Int32,System.Action)"/>
@@ -1743,6 +1865,13 @@
             <param name="fieldName" example="m_iHealth">Schema field name</param>
             <param name="extraOffset">Any additional offset to the schema field</param>
             <exception cref="T:System.InvalidOperationException">Entity is not valid</exception>
+        </member>
+        <member name="M:CounterStrikeSharp.API.Utilities.MetaFactory(System.String)">
+            <summary>
+            metamod method 'MetaFactory' to get the pointer of api interface exposed by metamod plugins.
+            Returns null when the interface cannot be found.
+            </summary>
+            <param name="interfaceName">The interface name of metamod api, can be found in their api header file</param>
         </member>
         <member name="T:CounterStrikeSharp.API.ValveConstants.Protobuf.NetworkDisconnectionReason">
             <summary>

@@ -1,0 +1,1 @@
+2025-09-13 23:49:58.295 +03:00 [INFO] plugin:ResetScore [https://github.com/stefanx111/cs2-SimpleResetScore] ResetScore loaded 1.0.7 !

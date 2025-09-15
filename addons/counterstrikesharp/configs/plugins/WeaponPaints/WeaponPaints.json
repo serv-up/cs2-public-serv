@@ -1,32 +1,59 @@
 {
-  "Version": 6,
+  "ConfigVersion": 10,
+  "SkinsLanguage": "ru",
   "DatabaseHost": "",
   "DatabasePort": 3306,
   "DatabaseUser": "",
   "DatabasePassword": "",
   "DatabaseName": "",
-  "CmdRefreshCooldownSeconds": 60,
-  "Prefix": "[WeaponPaints]",
-  "Website": "servup.net",
+  "CmdRefreshCooldownSeconds": 15,
+  "Website": "servup.net/skins",
   "Additional": {
     "KnifeEnabled": true,
     "GloveEnabled": true,
     "MusicEnabled": true,
     "AgentEnabled": true,
     "SkinEnabled": true,
+    "PinsEnabled": true,
     "CommandWpEnabled": true,
     "CommandKillEnabled": true,
-    "CommandKnife": "knife",
-    "CommandMusic": "music",
-    "CommandGlove": "gloves",
-    "CommandAgent": "agents",
-    "CommandSkin": "ws",
-    "CommandSkinSelection": "skins",
-    "CommandRefresh": "wp",
-    "CommandKill": "kill",
+    "CommandKnife": [
+      "knife"
+    ],
+    "CommandMusic": [
+      "music"
+    ],
+    "CommandPin": [
+      "pin",
+      "pins",
+      "coin",
+      "coins"
+    ],
+    "CommandGlove": [
+      "gloves"
+    ],
+    "CommandAgent": [
+      "agents"
+    ],
+    "CommandStattrak": [
+      "stattrak",
+      "st"
+    ],
+    "CommandSkin": [
+      "ws"
+    ],
+    "CommandSkinSelection": [
+      "skins"
+    ],
+    "CommandRefresh": [
+      "wp"
+    ],
+    "CommandKill": [
+      "kill"
+    ],
     "GiveRandomKnife": false,
     "GiveRandomSkin": false,
-    "ShowSkinImage": true
+    "ShowSkinImage": false
   },
-  "ConfigVersion": 6
+  "MenuType": "selectable"
 }

@@ -1,0 +1,6 @@
+{
+    "resetscore.resetscore.onlyvips": "Ця команда доступна тільки для VIP-користувачів!",
+    "resetscore.setscore.onlyadmins": "Ця команда доступна тільки для адміністраторів!",
+    "resetscore.resetscore.message": "Ваш рахунок було скинуто!",
+    "resetscore.setscore.message": "{Gold}{0:s}{Default} рахунок було встановлено!"
+}

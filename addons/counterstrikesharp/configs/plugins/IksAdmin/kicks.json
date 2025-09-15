@@ -1,0 +1,34 @@
+{
+  "TitleToTextInReasons": true,
+  "BanOnAllServers" : false,
+  "BlockedIdentifiers": [
+    "@all",
+    "@ct",
+    "@t",
+    "@players",
+    "@spec",
+    "@bot"
+  ],
+  "Reasons": [
+    {
+      "Title": "AFK",
+      "Text": "АФК",
+      "HideFromMenu": false
+    },
+    {
+      "Title": "Использование багов",
+      "Text": "Использование багов",
+      "HideFromMenu": false
+    },
+    {
+      "Title": "Много понтов",
+      "Text": "Много понтов",
+      "HideFromMenu": false
+    },
+    {
+      "Title": "Высокий пинг",
+      "Text": "Высокий пинг",
+      "HideFromMenu": false
+    }
+  ]
+}

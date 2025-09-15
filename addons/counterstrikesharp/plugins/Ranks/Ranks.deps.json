@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "Ranks/1.0.0": {
         "dependencies": {
-          "CounterStrikeSharp.API": "1.0.272",
+          "CounterStrikeSharp.API": "1.0.339",
           "Dapper": "2.1.15",
           "Microsoft.Extensions.Localization": "8.0.0",
           "MySqlConnector": "2.3.0-beta.3",
@@ -18,7 +18,7 @@
           "Ranks.dll": {}
         }
       },
-      "CounterStrikeSharp.API/1.0.272": {
+      "CounterStrikeSharp.API/1.0.339": {
         "dependencies": {
           "McMaster.NETCore.Plugins": "1.4.0",
           "Microsoft.CSharp": "4.7.0",
@@ -31,12 +31,13 @@
           "Serilog.Extensions.Logging": "8.0.0",
           "Serilog.Sinks.Console": "5.0.0",
           "Serilog.Sinks.File": "5.0.0",
-          "System.Data.DataSetExtensions": "4.5.0"
+          "System.Data.DataSetExtensions": "4.5.0",
+          "Tomlyn": "0.19.0"
         },
         "runtime": {
           "lib/net8.0/CounterStrikeSharp.API.dll": {
-            "assemblyVersion": "1.0.272.0",
-            "fileVersion": "1.0.272.0"
+            "assemblyVersion": "1.0.339.0",
+            "fileVersion": "1.0.339.0"
           }
         }
       },
@@ -568,12 +569,23 @@
           "System.Text.Encodings.Web": "8.0.0"
         }
       },
+      "Tomlyn/0.19.0": {
+        "runtime": {
+          "lib/net8.0/Tomlyn.dll": {
+            "assemblyVersion": "0.19.0.0",
+            "fileVersion": "0.19.0.0"
+          }
+        }
+      },
       "RanksApi/1.0.0": {
         "dependencies": {
-          "CounterStrikeSharp.API": "1.0.272"
+          "CounterStrikeSharp.API": "1.0.339"
         },
         "runtime": {
-          "RanksApi.dll": {}
+          "RanksApi.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -584,12 +596,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CounterStrikeSharp.API/1.0.272": {
+    "CounterStrikeSharp.API/1.0.339": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hEvaZViDZ2+VjVnJGDYT9KnaTNboiv1OJi9Cfj7vMNBqB2uPiyKwlZEj28Wj0LuNWI8APlRKOmqD8jkZ61+PJw==",
-      "path": "counterstrikesharp.api/1.0.272",
-      "hashPath": "counterstrikesharp.api.1.0.272.nupkg.sha512"
+      "sha512": "sha512-0gJ6dBB0cicdhgfSkRe50gQjdVDo/vo6N8ZxG7As6Fz6QDPnF/brxY7Tn8MWlD74zY+ynd8UHL8W6mRrDPVtPA==",
+      "path": "counterstrikesharp.api/1.0.339",
+      "hashPath": "counterstrikesharp.api.1.0.339.nupkg.sha512"
     },
     "Dapper/2.1.15": {
       "type": "package",
@@ -933,6 +945,13 @@
       "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
       "path": "system.text.json/8.0.0",
       "hashPath": "system.text.json.8.0.0.nupkg.sha512"
+    },
+    "Tomlyn/0.19.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GlI2o8R8jbZIaE+YX6uA/VoAOH7zIxYeqxDm7jHW2hqUhuB+q19oKold35FkMuv8IZDoCqsTMolaBv2eBLBmrQ==",
+      "path": "tomlyn/0.19.0",
+      "hashPath": "tomlyn.0.19.0.nupkg.sha512"
     },
     "RanksApi/1.0.0": {
       "type": "project",

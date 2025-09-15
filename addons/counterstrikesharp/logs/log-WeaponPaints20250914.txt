@@ -1,0 +1,8 @@
+2025-09-14 13:50:55.894 +03:00 [INFO] plugin:WeaponPaints Plugin is up to date
+2025-09-14 13:54:05.673 +03:00 [INFO] plugin:WeaponPaints Plugin is up to date
+2025-09-14 13:56:57.487 +03:00 [INFO] plugin:WeaponPaints Plugin is up to date
+2025-09-14 14:19:28.130 +03:00 [INFO] plugin:WeaponPaints Plugin is up to date
+2025-09-14 14:21:27.121 +03:00 [INFO] plugin:WeaponPaints Plugin is up to date
+2025-09-14 14:23:06.589 +03:00 [INFO] plugin:WeaponPaints Plugin is up to date
+2025-09-14 14:35:25.015 +03:00 [INFO] plugin:WeaponPaints Plugin is up to date
+2025-09-14 14:35:50.530 +03:00 [INFO] plugin:WeaponPaints Plugin is up to date

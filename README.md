@@ -10,7 +10,6 @@ The server is equipped with the following plugins and tools:
 
 - **Metamod**: [Metamod:Source](https://www.metamodsource.net/downloads.php/?branch=master) - A powerful plugin framework for games on the Source engine.
 - **CounterStrikeSharp**: [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) - A comprehensive API for CS2 plugin development.
-- **ServerListPlayersFix**: [ServerListPlayersFix](https://github.com/Source2ZE/ServerListPlayersFix) - Fixes issues with player count display in the server list.
 - **Chat Advertisement**: [cs2-advertisement](https://github.com/partiusfabaa/cs2-advertisement) - Displays custom advertisement messages in the game chat.
 - **AFK Manager**: [AFKManager](https://github.com/NiGHT757/AFKManager) - Automatically manages AFK players.
 - **Admin System**: [Iks_Admin](https://github.com/Iksix/Iks_Admin) - Provides a comprehensive admin management system.
@@ -44,7 +43,9 @@ Follow these steps to install and configure your CS2 server:
    - Edit the following configuration files according to your needs:
      - `cfg/server.cfg` - The main server configuration file.
      - `addons/counterstrikesharp/configs/plugins/Advertisement/Advertisement.json` - Configures chat advertisement.
-     - `addons/counterstrikesharp/plugins/IksAdmin/configs/core.json` - Configures the admin system, including database settings.
+     - `addons/counterstrikesharp/configs/plugins/IksAdmin/core.json` - Configures the admin system, including database settings.
+     - `addons/counterstrikesharp/configs/plugins/IksAdmin_Modules` - Modules the admin system, including database settings.
+     - `addons/counterstrikesharp/configs/plugins/LogsCore/LogsCore.json` - Logging of admin actions and bans.
      - `addons/counterstrikesharp/configs/plugins/RanksCore/ranks.json` - Configures the statistics system, including database settings.
      - `addons/counterstrikesharp/configs/plugins/VIPCore/vip_core.json` - Configures the VIP system, including database integration.
      - `addons/counterstrikesharp/configs/plugins/WeaponPaints/WeaponPaints.json` - Configures the skin selection for weapons and agents using a database.
@@ -61,12 +62,11 @@ Feel free to fork this repository, submit bug reports, or contribute to the proj
 
 This repository provides a basic server configuration that you can extend with additional features based on your needs. However, if you want to create a high-quality and well-thought-out server build, feel free to contact us — we are happy to help everyone. Learn more on our website: [servup.net](https://servup.net).
 
-To find the necessary plugin and keep track of its updates, join our Discord channel: [https://discord.gg/servup](https://discord.gg/servup).
+To find the necessary plugin and keep track of its updates, join our Discord channel: [https://servup.net/discord](https://servup.net/discord).
 
 ## Looking for Opportunities
 
 If you need an experienced developer for your projects, contact me:
 
-- **Discord**: [https://discord.gg/servup](https://discord.gg/servup)
+- **Discord**: [https://servup.net/discord](https://servup.net/discord)
 - **Telegram**: [https://t.me/serv_up](https://t.me/serv_up)
-- **Steam**: [https://steamcommunity.com/id/nex-end/](https://steamcommunity.com/id/nex-end/)

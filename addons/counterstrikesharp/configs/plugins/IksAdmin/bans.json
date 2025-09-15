@@ -1,0 +1,87 @@
+{
+  "TitleToTextInReasons": true,
+  "BanOnAllServers" : true,
+  "BlockedIdentifiers": [
+    "@all",
+    "@ct",
+    "@t",
+    "@players",
+    "@spec",
+    "@bot"
+  ],
+  "Reasons": [
+    {
+      "Title": "Читы",
+      "Text": "Читы",
+      "MinTime": 0,
+      "MaxTime": 0,
+      "Duration": 0,
+      "BanOnAllServers": true,
+      "HideFromMenu": false
+    },
+    {
+      "Title": "Реклама",
+      "Text": "Реклама",
+      "MinTime": 0,
+      "MaxTime": 0,
+      "Duration": 0,
+      "BanOnAllServers": true,
+      "HideFromMenu": false
+    },
+    {
+      "Title": "Оскорбление проекта",
+      "Text": "Оскорбление проекта",
+      "MinTime": 0,
+      "MaxTime": 0,
+      "Duration": 0,
+      "BanOnAllServers": true,
+      "HideFromMenu": false
+    },
+    {
+      "Title": "Выдает себя за админа",
+      "Text": "Выдает себя за админа",
+      "MinTime": 0,
+      "MaxTime": 0,
+      "Duration": 0,
+      "BanOnAllServers": true,
+      "HideFromMenu": false
+    },
+    {
+      "Title": "Обход блокировки",
+      "Text": "Обход блокировки",
+      "MinTime": 0,
+      "MaxTime": 0,
+      "Duration": 0,
+      "BanOnAllServers": true,
+      "HideFromMenu": false
+    },
+    {
+      "Title": "Отказ от проверки",
+      "Text": "Отказ от проверки",
+      "MinTime": 0,
+      "MaxTime": 30,
+      "Duration": 0,
+      "BanOnAllServers": true,
+      "HideFromMenu": false
+    },
+    {
+      "Title": "VAC на аккаунте",
+      "Text": "VAC на аккаунте",
+      "MinTime": 0,
+      "MaxTime": 0,
+      "Duration": 0,
+      "BanOnAllServers": true,
+      "HideFromMenu": false
+    }
+  ],
+  "Times": {
+    "1": "1 мин",
+    "5": "5 мин",
+    "30": "30 мин",
+    "60": "1 час",
+    "1440": "1 день",
+    "10080": "1 неделя",
+    "43800": "1 месяц",
+    "0": "Навсегда"
+  }
+}

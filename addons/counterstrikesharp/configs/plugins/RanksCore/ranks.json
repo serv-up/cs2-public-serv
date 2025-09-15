@@ -1,69 +1,65 @@
 {
   "TableName": "lvl_base",
-  "Prefix": "{BLUE}SERVUP {DEFAULT}|",
+  "Prefix": "[ {BLUE}Ranks {DEFAULT}]",
   "TeamKillAllowed": true,
   "UseCommandWithoutPrefix": true,
   "ShowExperienceMessages": true,
-  "MinPlayers": 4,
-  "InitialExperiencePoints": 500,
+  "MinPlayers": 2,
+  "InitialExperiencePoints": 100,
   "StatisticsResetEnabled": true,
   "TypeStatistics": 0,
   "KillCoefficient": 1.04,
   "Events": {
-    "EventRoundMvp": 20,
+    "EventRoundMvp": 5,
     "EventPlayerDeath": {
-      "Kills": 15,
-      "Deaths": -10,
-      "Assists": 7,
-      "KillingAnAlly": -15,
-      "Suicide": -20
+      "Kills": 6,
+      "Deaths": -20,
+      "Assists": 3,
+      "KillingAnAlly": -10,
+      "Suicide": -15
     },
     "EventPlayerBomb": {
       "DroppedBomb": -5,
-      "PlantedBomb": 6,
-      "DefusedBomb": 6,
-      "PickUpBomb": 4
+      "PlantedBomb": 2,
+      "DefusedBomb": 3,
+      "PickUpBomb": 3
     },
     "EventRoundEnd": {
-      "Winner": 10,
-      "Loser": -5
+      "Winner": 3,
+      "Loser": -8
     },
     "Additionally": {
-      "Headshot": 3,
-      "Noscope": 4,
-      "Attackerblind": 3,
-      "Thrusmoke": 4,
-      "Penetrated": 5
+      "Headshot": 1,
+      "Noscope": 2,
+      "Attackerblind": 1,
+      "Thrusmoke": 1,
+      "Penetrated": 2
     }
   },
   "Weapon": {
-    "knife": 15,
-    "awp": 3
+    "knife": 5,
+    "awp": 2
   },
   "Ranks": {
-  "Recruit": 0,
-  "Cadet": 100,
-  "Private": 250,
-  "Corporal": 400,
-  "Sergeant": 600,
-  "Lieutenant": 800,
-  "Captain": 1000,
-  "Major": 1300,
-  "Colonel": 1700,
-  "Commander": 2100,
-  "Warlord": 2600,
-  "Enforcer": 3200,
-  "Assassin": 4000,
-  "Elite Assassin": 5000,
-  "Shadow Operative": 6000,
-  "Phantom": 7500,
-  "Master Phantom": 9000,
-  "Legendary Hero": 11000,
-  "Titan": 13500,
-  "Supreme Titan": 16000,
-  "Immortal": 19000,
-  "Apex Predator": 22500,
-  "God of War": 27000
+    "None": 0,
+    "Silver I": 50,
+    "Silver II": 100,
+    "Silver III": 450,
+    "Silver IV": 800,
+    "Silver Elite": 1200,
+    "Silver Elite Master": 1500,
+    "Gold Nova I": 2000,
+    "Gold Nova II": 3000,
+    "Gold Nova III": 3500,
+    "Gold Nova Master": 4300,
+    "Master Guardian I": 5300,
+    "Master Guardian II": 6000,
+    "Master Guardian Elite": 7000,
+    "BigStar": 8000,
+    "Legendary Eagle": 10000,
+    "Legendary Eagle Master": 12000,
+    "Supreme": 15000,
+    "The Global Elite": 20000
   },
   "Connection": {
     "Host": "",

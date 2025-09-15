@@ -1,0 +1,1 @@
+2025-09-13 23:49:58.099 +03:00 [INFO] plugin:TeamBalance Loaded (version 1.2)

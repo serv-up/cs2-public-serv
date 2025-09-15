@@ -1,0 +1,8 @@
+2025-09-14 13:50:56.190 +03:00 [INFO] plugin:ResetScore [https://github.com/stefanx111/cs2-SimpleResetScore] ResetScore loaded 1.0.7 !
+2025-09-14 13:54:05.904 +03:00 [INFO] plugin:ResetScore [https://github.com/stefanx111/cs2-SimpleResetScore] ResetScore loaded 1.0.7 !
+2025-09-14 13:56:57.709 +03:00 [INFO] plugin:ResetScore [https://github.com/stefanx111/cs2-SimpleResetScore] ResetScore loaded 1.0.7 !
+2025-09-14 14:19:28.454 +03:00 [INFO] plugin:ResetScore [https://github.com/stefanx111/cs2-SimpleResetScore] ResetScore loaded 1.0.7 !
+2025-09-14 14:21:27.430 +03:00 [INFO] plugin:ResetScore [https://github.com/stefanx111/cs2-SimpleResetScore] ResetScore loaded 1.0.7 !
+2025-09-14 14:23:06.912 +03:00 [INFO] plugin:ResetScore [https://github.com/stefanx111/cs2-SimpleResetScore] ResetScore loaded 1.0.7 !
+2025-09-14 14:35:25.318 +03:00 [INFO] plugin:ResetScore [https://github.com/stefanx111/cs2-SimpleResetScore] ResetScore loaded 1.0.7 !
+2025-09-14 14:35:50.767 +03:00 [INFO] plugin:ResetScore [https://github.com/stefanx111/cs2-SimpleResetScore] ResetScore loaded 1.0.7 !

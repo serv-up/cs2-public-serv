@@ -538,7 +538,10 @@
           "CounterStrikeSharp.API": "1.0.233"
         },
         "runtime": {
-          "PlayerSettingsApi.dll": {}
+          "PlayerSettingsApi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "AnyBaseLib/1.0.0.0": {

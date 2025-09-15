@@ -1,0 +1,16 @@
+{
+    "commandUsed" : "**Action** \nAdmin: {admin}\nCommand: {cmd}",
+    "ban" : "**Ban Added** \nAdmin: {admin}\nPlayer Nickname: {target}\nSteamId64: {targetId}\nIP: {targetIp}\nReason: {reason}\nDuration: {duration}\nEnds: {end}\nBan Type: {type}",
+    "unban" : "**Ban Removed** \nAdmin: {admin}\nPlayer Nickname: {target}\nSteamId64: {targetId}\nBan Type: {type}",
+    "comm" : "**Chat Block** \n **Type: {type}** \nAdmin: {admin}\nPlayer Nickname: {target}\nSteamId64: {targetId}\nReason: {reason}\nDuration: {duration}\nEnds: {end}",
+    "uncomm" : "**Chat Block Removed** \n **Type: {type}** \nAdmin: {admin}\nPlayer Nickname: {target}\nSteamId64: {targetId}",
+    "slay" : "**Player Slain** \nAdmin: {admin}\nPlayer Nickname: {target}\nSteamId64: {targetId}",
+    "kick" : "**Player Kicked** \nAdmin: {admin}\nPlayer Nickname: {target}\nSteamId64: {targetId}\nReason: {reason}",
+    "adminadd" : "**New Admin Added!** \nPlayer Nickname: {admin} \nSteamId64: {adminId}\nFlags: {flags}\nImmunity: {immunity}\nGroup Name: {group}\nEnds: {end}",
+    "admindel" : "**Admin Removed!** \nPlayer Nickname: {admin} \nSteamId64: {adminId}\nFlags: {flags}\nImmunity: {immunity}\nEnds: {end} \nGroup Name: {group}",
+    "switchTeam" : "**Player Switched Team**\nAdmin: {admin}\nPlayer Nickname: {target}\nSteamId64: {targetId}\nNew Team: {team}",
+    "changeTeam" : "**Player Moved**\nAdmin: {admin}\nPlayer Nickname: {target}\nSteamId64: {targetId}\nNew Team: {team}",
+
+    "NEVER" : "NEVER",
+    "NONE" : "NONE"
+}

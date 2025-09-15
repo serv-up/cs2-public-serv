@@ -1,0 +1,327 @@
+[
+    {
+        "id": "1",
+        "name": "Breloc | Lil' Ava",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-1.png"
+    },
+    {
+        "id": "2",
+        "name": "Breloc | That's Bananas",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-2.png"
+    },
+    {
+        "id": "3",
+        "name": "Breloc | Lil' Whiskers",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-3.png"
+    },
+    {
+        "id": "4",
+        "name": "Breloc | Lil' Sandy",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-4.png"
+    },
+    {
+        "id": "5",
+        "name": "Breloc | Chicken Lil'",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-5.png"
+    },
+    {
+        "id": "6",
+        "name": "Breloc | Lil' Crass",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-6.png"
+    },
+    {
+        "id": "7",
+        "name": "Breloc | Hot Howl",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-7.png"
+    },
+    {
+        "id": "8",
+        "name": "Breloc | Big Kev",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-8.png"
+    },
+    {
+        "id": "9",
+        "name": "Breloc | Lil' Monster",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-9.png"
+    },
+    {
+        "id": "10",
+        "name": "Breloc | Hot Sauce",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-10.png"
+    },
+    {
+        "id": "11",
+        "name": "Breloc | Diamond Dog",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-11.png"
+    },
+    {
+        "id": "12",
+        "name": "Breloc | Pinch O' Salt",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-12.png"
+    },
+    {
+        "id": "13",
+        "name": "Breloc | Diner Dog",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-13.png"
+    },
+    {
+        "id": "14",
+        "name": "Breloc | Lil' Teacup",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-14.png"
+    },
+    {
+        "id": "15",
+        "name": "Breloc | Lil' SAS",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-15.png"
+    },
+    {
+        "id": "16",
+        "name": "Breloc | Hot Wurst",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-16.png"
+    },
+    {
+        "id": "17",
+        "name": "Breloc | Baby's AK",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-17.png"
+    },
+    {
+        "id": "18",
+        "name": "Breloc | Die-cast AK",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-18.png"
+    },
+    {
+        "id": "19",
+        "name": "Breloc | Pocket AWP",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-19.png"
+    },
+    {
+        "id": "20",
+        "name": "Breloc | Titeenium AWP",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-20.png"
+    },
+    {
+        "id": "21",
+        "name": "Breloc | Baby Karat CT",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-21.png"
+    },
+    {
+        "id": "22",
+        "name": "Breloc | Whittle Knife",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-22.png"
+    },
+    {
+        "id": "23",
+        "name": "Breloc | POP Art",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-23.png"
+    },
+    {
+        "id": "24",
+        "name": "Breloc | Lil' Squirt",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-24.png"
+    },
+    {
+        "id": "25",
+        "name": "Breloc | Disco MAC",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-25.png"
+    },
+    {
+        "id": "26",
+        "name": "Breloc | Backsplash",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-26.png"
+    },
+    {
+        "id": "27",
+        "name": "Breloc | Lil' Cap Gun",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-27.png"
+    },
+    {
+        "id": "28",
+        "name": "Breloc | Hot Hands",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-28.png"
+    },
+    {
+        "id": "29",
+        "name": "Breloc | Semi-Precious",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-29.png"
+    },
+    {
+        "id": "30",
+        "name": "Breloc | Baby Karat T",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-30.png"
+    },
+    {
+        "id": "31",
+        "name": "Breloc | Glamour Shot",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-31.png"
+    },
+    {
+        "id": "32",
+        "name": "Breloc | Stitch-Loaded",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-32.png"
+    },
+    {
+        "id": "33",
+        "name": "Breloc | Lil' Squatch",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/keychain-33.png"
+    },
+    {
+        "id": "202521",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | chopper – ucidere dublă",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_chopper2kvsmouzonmirage1.png"
+    },
+    {
+        "id": "2025100",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | 100 de răni de la utilitare",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_chopperdiesfrom100byutilityvsmouzonmirage.png"
+    },
+    {
+        "id": "202511",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | 1v2 negat",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_chopperwins1v1vsbrollanonmiragemouz.png"
+    },
+    {
+        "id": "20253",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | chopper – tripletă de prim-ucideri",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_chopper3ktowinmap.png"
+    },
+    {
+        "id": "20252",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Ucidere dublă cu pistolul",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_donk2kvsmouzonmirage.png"
+    },
+    {
+        "id": "2025311",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Ucidere triplă și dezamorsare",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_donk3with1v1win.png"
+    },
+    {
+        "id": "202541",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Jimpphat – ucidere cvadruplă",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_jimpphat4kvsspiritonmirage1.png"
+    },
+    {
+        "id": "2025",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Alergând și trăgând",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_jimpphatrunninghsvsspiritonmirage.png"
+    },
+    {
+        "id": "202512",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Situație-limită 1 vs 2",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_magix1v2tosecureot.png"
+    },
+    {
+        "id": "2025413",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Regele situațiilor-limită",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_magix4kand1v3winvsmouzonmirage.png"
+    },
+    {
+        "id": "20251",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Reacții rapide",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_shirofastawpflickvsmouzonmirage1.png"
+    },
+    {
+        "id": "202531",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Două grenade la cap",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_spinxnadedto3hpvsspiritonmirage1.png"
+    },
+    {
+        "id": "20254",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Spinx – ucidere cvadruplă",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_spinxinsane4kclutchvsspiritonmirage.png"
+    },
+    {
+        "id": "202522",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Brollan – ucidere dublă",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_brollan2kvsspiritondust2.png"
+    },
+    {
+        "id": "202532",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Brollan – ucidere triplă",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_brollan3kvsspiritondust2.png"
+    },
+    {
+        "id": "202510002",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Omul de oțel",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_brollandiesfrom100to0fromutilityvsspiritondust2.png"
+    },
+    {
+        "id": "2025392",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Rafala din săritură",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_chopper3kmp9vsspiritondust2.png"
+    },
+    {
+        "id": "20254112",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Aproape de un as",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_donk4kandfailed1v1vsmouzondust2.png"
+    },
+    {
+        "id": "202542",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Sunt chiar în spatele tău",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_jimpphat4konretakevspsiritondust2.png"
+    },
+    {
+        "id": "2025122",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | AWP negat",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_shirothrowawayawpin1v2ondust2vsmouz.png"
+    },
+    {
+        "id": "202529",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | 3-2-1-HAI!",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_jimpphat2kmp9vsspiritonnuke.png"
+    },
+    {
+        "id": "202513",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | dgt – reușită nereușită",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_dgtfailed1v3vsfuriaonnuke.png"
+    },
+    {
+        "id": "20259",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Maestru în Tec-9",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_fallentec9mastervspainonnuke.png"
+    },
+    {
+        "id": "2025112",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | dav1deuS – ucidere dublă pe Anubis",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_dav1deus1v2vsfuriaonanubis.png"
+    },
+    {
+        "id": "2025113",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Omul situațiilor-limită",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_dav1deus1v3vsfuriaonanubis.png"
+    },
+    {
+        "id": "2025910",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Deagle Supremacy",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_910doubledeaglevsfazeonmirage.png"
+    },
+    {
+        "id": "20259102",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Ucidere dublă cu lovituri în cap",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_9102kpistolvsfazeonmirage.png"
+    },
+    {
+        "id": "20259103",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | 910 Triple Kill vs FaZe",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_9103ktowinmapvsfazeonmirage.png"
+    },
+    {
+        "id": "2025210",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | The Running MAC-10",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_karrigan2kmac10vsmongolzonanubis.png"
+    },
+    {
+        "id": "20259101",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | One Kill Is Enough",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_9101kvspainonmirage.png"
+    },
+    {
+        "id": "2025132",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Fear Him",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_mzinhoclose1v3vsvitalityondust2.png"
+    },
+    {
+        "id": "2025123",
+        "name": "Souvenir Charm | Moment deosebit | Austin 2025 | Testing123",
+        "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/highlight-aus2025_flameztesting123vsthemongolzoninferno.png"
+    }
+]

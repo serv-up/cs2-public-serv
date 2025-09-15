@@ -1,0 +1,8 @@
+2025-09-13 23:49:58.999 +03:00 [INFO] plugin:[VIP] Core Feature 'flags' registered successfully
+2025-09-13 23:49:59.016 +03:00 [INFO] plugin:[VIP] Core Feature 'DamageMultiplier' registered successfully
+2025-09-13 23:49:59.020 +03:00 [INFO] plugin:[VIP] Core Feature 'CustomDefaultAmmo' registered successfully
+2025-09-13 23:49:59.022 +03:00 [INFO] plugin:[VIP] Core Feature 'Health' registered successfully
+2025-09-13 23:49:59.023 +03:00 [INFO] plugin:[VIP] Core Feature 'Money' registered successfully
+2025-09-13 23:49:59.024 +03:00 [INFO] plugin:[VIP] Core Feature 'Grenades' registered successfully
+2025-09-13 23:49:59.029 +03:00 [INFO] plugin:[VIP] Core Feature 'Defuser' registered successfully
+2025-09-13 23:49:59.033 +03:00 [INFO] plugin:[VIP] Core Feature 'Tag' registered successfully

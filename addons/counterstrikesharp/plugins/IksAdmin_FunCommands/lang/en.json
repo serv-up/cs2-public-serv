@@ -1,0 +1,87 @@
+{
+    "MenuTitle.FunCommands": "Additional functions",
+    "MenuOption.RConVar": "Player CVar",
+    "MenuOption.Noclip": "Noclip",
+    "MenuOption.SetMoney": "Set money",
+    "MenuOption.AddMoney": "Give money",
+    "MenuOption.TakeMoney": "Take money",
+    "MenuOption.SetHp": "Set HP",
+    "MenuOption.SetSpeed": "Set speed",
+    "MenuOption.SetScale": "Set scale",
+    "Message.RConVar": "{red}RConVar{white} set for player {target}",
+    "Message.Noclip": "{red}Noclip{white} set to {red}{value}{white} for player {red}{target}",
+    "Message.SetMoney": "Money set to {red}{value}{white} for player {red}{target}",
+    "Message.AddMoney": "Given {red}{value}{white} money to player {red}{target}",
+    "Message.TakeMoney": "Taken {red}{value}{white} money from player {red}{target}",
+    "Message.Slap": "Player {red}{target}{white} slapped",
+    "Message.SetHp": "Player {red}{target}{white} set to {red}{value} HP",
+    "Message.SetSpeed": "Player {red}{target}{white} speed set to: {red}{value}",
+    "Message.SetScale": "Player {red}{target}{white} scale set to: {red}{value}",
+    "Request.RConVar1": "Enter CVar: !<noclip>",
+    "Request.RConVar2": "Enter value: !<true>",
+    "Request.MoneyAmount": "Enter amount of money: {red}!<123(integer)>",
+    "Request.HpAmount": "Enter amount of HP: {red}!<100(integer)>",
+    "Request.Speed": "Enter speed: {red}!<5(number)>",
+    "Request.Scale": "Enter scale: {red}!<5(number)>",
+    "Error.TargetNotFound": "Target not found",
+    "Error.TargetMustBeAlive": "Target must be alive",
+    "Error.NotEnoughPermission": "Not enough permissions to interact with player {red}{target}",
+
+    // === [1.0.1] ===
+    "MenuTitle.SelectPosition" : "Select a position",
+    "MenuOption.SavePosition" : "Save position",
+    "MenuOption.Teleport" : "Teleport",
+    "MenuOption.PingTp" : "Teleport to ping",
+
+    "Message.TeleportTo" : "Player {red}{target}{white} teleported to position: {red}{key}",
+    "Message.PositionSaved" : "Position {red}{key}{white} saved!",
+    "Message.TurnTeleportOnPing" : "Teleport to ping for player {red}{target}{white} set to: {red}{value}",
+
+    "Request.PositionKey" : "Enter a key for the position: {red}!name",
+
+    "Error.UndefinedPosition" : "Position with this key not found",
+
+    // === [1.0.4] ===
+    "MenuOption.SetCustomDamage" : "Set custom damage",
+    "MenuOption.SetBonusDamage" : "Set bonus damage",
+    "MenuOption.SetShootSpeed" : "Set shooting speed",
+    "MenuOption.SetMaxAmmo" : "Set max ammo",
+    "MenuOption.SetNoRecoil" : "Remove recoil", // In fact, just greatly reduces it; I couldn't find a way to remove it completely (Because you can't interact with the client) =(
+
+    "Message.ShootSpeed" : "Shooting speed for {red}{weapon}{white}: {red}{value}",
+    "Message.BonusDamage" : "Bonus damage for {red}{weapon}{white}: {red}{value}",
+    "Message.CustomDamage" : "Damage for {red}{weapon}{white}: {red}{value}",
+    "Message.MaxAmmo" : "Max ammo for {red}{weapon}{white}: {red}{value}",
+    "Message.NoRecoil" : "Recoil for player {red}{target}{white}: {red}{value}",
+
+    "Request.ShootSpeed" : "Enter shooting speed for {red}{weapon}{white}: {red}!<0,1(number)/default>",
+    "Request.BonusDamage" : "Enter bonus damage for {red}{weapon}{white}: {red}!<10(integer)/default>",
+    "Request.CustomDamage" : "Enter damage for {red}{weapon}{white}: {red}!<10(integer)/default>",
+    "Request.MaxAmmo" : "Enter max ammo for {red}{weapon}{white}: {red}!<100(integer)/default>",
+
+    "Error.MustHandleWeapon" : "{red}The target must be holding a weapon!",
+
+    // === [1.0.5] ===
+    "MenuOption.Slap" : "Slap player",
+
+    // === [1.0.6] ===
+
+    "MenuTitle.SpecialTargets" : "Select targets:",
+    "MenuTitle.SelectWeapon" : "Select a weapon:",
+
+    "MenuOption.SpecialTargets" : "Special selection",
+    "MenuOption.Freeze" : "Freeze player",
+    "MenuOption.Unfreeze" : "Unfreeze player",
+    "MenuOption.GiveWeapon" : "Give weapon",
+
+    "MenuOption.Me" : "You",
+    "MenuOption.CT" : "Counter-Terrorists",
+    "MenuOption.T" : "Terrorists",
+    "MenuOption.All" : "All",
+
+    "Message.Freeze" : "Player {red}{name} {white}has been frozen!",
+    "Message.Unfreeze" : "Player {red}{name} {white}has been unfrozen!",
+    "Message.GiveWeapon" : "Player {red}{name} has been given a weapon: {value}",
+
+    "Error.WeaponNotFound" : "{red}Weapon {white}{value}{red} not found!"
+}

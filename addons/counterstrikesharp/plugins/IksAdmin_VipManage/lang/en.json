@@ -1,0 +1,12 @@
+{
+    "MenuTitle.SelectPlayer": "Select a player",
+    "MenuTitle.SelectGroup": "Select a group",
+    "Message.WriteTime": "Enter the time in minutes: {red}!1440",
+    "MenuTitle.VipManage": "VIP Management",
+    "MenuTitle.VipGive": "Issue VIP",
+    "MenuOption.VipManage": "VIP Management",
+    "MenuOption.Give": "Give",
+
+    "MenuOption.Expires": "Expires: {date}",
+    "MenuOption.Group": "Group: {group}"
+}

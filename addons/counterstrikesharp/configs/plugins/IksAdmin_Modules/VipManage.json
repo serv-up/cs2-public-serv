@@ -1,0 +1,13 @@
+{
+  "VipByPisex": false,
+  "Sid": 0, 
+  "Groups": [ 
+    "VIP",
+    "PREMIUM"
+  ],
+    "Host": "",
+    "Database": "",
+    "User": "",
+    "Password": "",
+    "Port": 3306
+}

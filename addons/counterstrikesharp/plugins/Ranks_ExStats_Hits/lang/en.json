@@ -1,0 +1,7 @@
+{
+  "hits_player": "Total hits: {0}\nHead: {1}\nChest: {2}\nStomach: {3}\nLeft arm: {4}\nRight arm: {5}\nLeft leg: {6}\nRight leg: {7}",
+  "dmg_player": "Damage to HP: {0}\nDamage to armor: {1}",
+  "hits": "Hits",
+  "damage": "Damage",
+  "hits_statistics": "Hits statistics"
+}

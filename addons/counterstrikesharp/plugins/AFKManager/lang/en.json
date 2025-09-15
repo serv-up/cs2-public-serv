@@ -1,13 +1,13 @@
 ﻿{
-  "ChatPrefix": "{darkred}[AFK Monitor]{default} ",
-  "ChatKickMessage": "{grey}{playerName}{default} was {lime}removed{default} for being {darkred}AFK{default}.",
-  "ChatMoveMessage": "{grey}{playerName}{default} was {lime}moved{default} to Spectator due to inactivity ({darkred}AFK{default}).",
-  "ChatKillMessage": "{grey}{playerName}{default} was {lime}eliminated{default} for remaining {darkred}AFK{default}.",
-  "ChatWarningKickMessage": "You are {darkred}idle{default}. Move now or you will be {lime}kicked{default} in {lightblue}{timeAmount}{default} seconds.",
-  "ChatWarningMoveMessage": "You are {darkred}idle{default}. Move now or you will be {lime}moved{default} to Spectator in {lightblue}{timeAmount}{default} seconds.",
-  "ChatWarningKillMessage": "You are {darkred}idle{default}. Move now or you will be {lime}eliminated{default} in {lightblue}{timeAmount}{default} seconds.",
-  "AntiCampSlayMessage": "{grey}{playerName}{default} was {lime}eliminated{default} for camping in {green}@{zoneName}{default} with {lime}{weaponName}{default}.",
-  "AntiCampSlapMessage": "{grey}{playerName}{default} was {lime}punished{default} with {red}{slapAmount} damage{default} for camping in {green}@{zoneName}{default} with {lime}{weaponName}{default}.",
-  "AntiCampSlayWarningMessage": "Stop camping in {green}@{zoneName}{default} with {lime}{weaponName}{default} or you will be {lime}eliminated{default} in {lightblue}{timeAmount}{default} seconds.",
-  "AntiCampSlapWarningMessage": "Stop camping in {green}@{zoneName}{default} with {lime}{weaponName}{default} or you will receive {lime}{slapAmount} damage{default} in {lightblue}{timeAmount}{default} seconds."
+  "ChatPrefix": "{default}[ {lightblue}AFK {default}] ",
+  "ChatKickMessage": "{grey}{playerName}{default} was {yellow}removed{default} for being {yellow}AFK{default}.",
+  "ChatMoveMessage": "{grey}{playerName}{default} was {yellow}moved{default} to Spectator due to inactivity ({yellow}AFK{default}).",
+  "ChatKillMessage": "{grey}{playerName}{default} was {yellow}eliminated{default} for remaining {yellow}AFK{default}.",
+  "ChatWarningKickMessage": "You are {yellow}idle{default}. Move now or you will be {yellow}kicked{default} in {lightblue}{timeAmount}{default} seconds.",
+  "ChatWarningMoveMessage": "You are {yellow}idle{default}. Move now or you will be {yellow}moved{default} to Spectator in {lightblue}{timeAmount}{default} seconds.",
+  "ChatWarningKillMessage": "You are {yellow}idle{default}. Move now or you will be {yellow}eliminated{default} in {lightblue}{timeAmount}{default} seconds.",
+  "AntiCampSlayMessage": "{grey}{playerName}{default} was {yellow}eliminated{default} for camping in {yellow}@{zoneName}{default} with {yellow}{weaponName}{default}.",
+  "AntiCampSlapMessage": "{grey}{playerName}{default} was {yellow}punished{default} with {red}{slapAmount} damage{default} for camping in {yellow}@{zoneName}{default} with {yellow}{weaponName}{default}.",
+  "AntiCampSlayWarningMessage": "Stop camping in {yellow}@{zoneName}{default} with {yellow}{weaponName}{default} or you will be {yellow}eliminated{default} in {lightblue}{timeAmount}{default} seconds.",
+  "AntiCampSlapWarningMessage": "Stop camping in {yellow}@{zoneName}{default} with {yellow}{weaponName}{default} or you will receive {yellow}{slapAmount} damage{default} in {lightblue}{timeAmount}{default} seconds."
 }

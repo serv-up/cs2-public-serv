@@ -1,22 +1,19 @@
 {
   "PrintToCenterHtml": false,
-  "HtmlCenterDuration": null,
-  "ShowHtmlWhenDead": null,
   "WelcomeMessage": {
     "MessageType": 0,
-    "Message": "{welcome_player} {RED}{PLAYERNAME} {welcome_text}",
+    "Message": "{prefix} {welcome_player} {BLUE}{PLAYERNAME} {welcome_text}",
     "DisplayDelay": 5
   },
   "Ads": [
     {
-      "Interval": 65,
+      "Interval": 25,
       "Messages": [
       	{
-          "Chat": "{reklama_1}"
-
+          "Chat": "{prefix}{reklama_1}"
         },
         {
-          "Chat": "{reklama_2}"
+          "Chat": "{prefix}{reklama_2}"
         }
       ]
     }
@@ -25,29 +22,42 @@
   "DefaultLang": "RU",
   "LanguageMessages": {
     "welcome_player": {
-      "RU": "{GREEN}Добро пожаловать"
+      "RU": "{DEFAULT}Добро пожаловать",
+      "US": "{DEFAULT}Welcome",
+      "UA": "{DEFAULT}Ласкаво просимо",
+      "PL": "{DEFAULT}Witamy",
+      "DE": "{DEFAULT}Willkommen"
+    },
+    "prefix": {
+      "RU": "{DEFAULT}({BLUE}***{DEFAULT}) {BLUE}servup.net\n",
+      "US": "{DEFAULT}({BLUE}***{DEFAULT}) {BLUE}servup.net\n",
+      "UA": "{DEFAULT}({BLUE}***{DEFAULT}) {BLUE}servup.net\n",
+      "PL": "{DEFAULT}({BLUE}***{DEFAULT}) {BLUE}servup.net\n",
+      "DE": "{DEFAULT}({BLUE}***{DEFAULT}) {BLUE}servup.net\n"
     },
     "welcome_text": {
-      "RU": "{GREEN}на игровой сервер {RED}SERVUP.NET"
-       },
-    "reklama_1": {
-      "RU": "{RED}[SERVUP] {GREEN}Сервер {RED}{SERVERNAME}\n{RED}[SERVUP] {GREEN}IP-адрес {RED}{IP}:{PORT}\n{RED}[SERVUP] {GREEN}Игроков [{RED}{PLAYERS} {GREEN}/ {RED}{MAXPLAYERS}{GREEN}]",
-      "EN": "{RED}[SERVUP] {GREEN}Server {RED}{SERVERNAME}\n{RED}[SERVUP] {GREEN}IP Address {RED}{IP}:{PORT}\n{RED}[SERVUP] {GREEN}Players [{RED}{PLAYERS} {GREEN}/ {RED}{MAXPLAYERS}{GREEN}]"
+      "RU": "{DEFAULT}на игровой сервер {BLUE}SERVUP",
+      "US": "{DEFAULT}to the game server {BLUE}SERVUP",
+      "UA": "{DEFAULT}на ігровий сервер {BLUE}SERVUP",
+      "PL": "{DEFAULT}na serwer gry {BLUE}SERVUP",
+      "DE": "{DEFAULT}auf den Spieleserver {BLUE}SERVUP"
     },
-    "reklama_2": {
-      "RU": "{RED}[SERVUP] {GREEN}Команды сервера {RED}!wp{GREEN}, {RED}!ws{GREEN}, {RED}!knife{GREEN}, {RED}!gloves{GREEN}, {RED}!skins{GREEN}, {RED}!lvl{GREEN}, {RED}!rs{GREEN}, {RED}!rank{GREEN}, {RED}!top",
-      "EN": "{RED}[SERVUP] {GREEN}Server commands {RED}!wp{GREEN}, {RED}!ws{GREEN}, {RED}!knife{GREEN}, {RED}!gloves{GREEN}, {RED}!skins{GREEN}, {RED}!lvl{GREEN}, {RED}!rs{GREEN}, {RED}!rank{GREEN}, {RED}!top"
-    }
+     "reklama_1": {
+       "RU": "{BLUE}--- {DEFAULT}Сервер {BLUE}{SERVERNAME}\n{BLUE}--- {DEFAULT}IP-адрес {BLUE}{IP:PORT}\n{BLUE}--- {DEFAULT}Игроков сейчас [{BLUE}{PLAYERS} {DEFAULT}/ {BLUE}{MAXPLAYERS}{DEFAULT}]",
+       "US": "{BLUE}--- {DEFAULT}Server {BLUE}{SERVERNAME}\n{BLUE}--- {DEFAULT}IP address {BLUE}{IP:PORT}\n{BLUE}--- {DEFAULT}Players now [{BLUE}{PLAYERS} {DEFAULT}/ {BLUE}{MAXPLAYERS}{DEFAULT}]",
+       "UA": "{BLUE}--- {DEFAULT}Сервер {BLUE}{SERVERNAME}\n{BLUE}--- {DEFAULT}IP-адреса {BLUE}{IP:PORT}\n{BLUE}--- {DEFAULT}Гравців зараз [{BLUE}{PLAYERS} {DEFAULT}/ {BLUE}{MAXPLAYERS}{DEFAULT}]",
+       "PL": "{BLUE}--- {DEFAULT}Serwer {BLUE}{SERVERNAME}\n{BLUE}--- {DEFAULT}Adres IP {BLUE}{IP:PORT}\n{BLUE}--- {DEFAULT}Gracze teraz [{BLUE}{PLAYERS} {DEFAULT}/ {BLUE}{MAXPLAYERS}{DEFAULT}]",
+       "DE": "{BLUE}--- {DEFAULT}Server {BLUE}{SERVERNAME}\n{BLUE}--- {DEFAULT}IP-Adresse {BLUE}{IP:PORT}\n{BLUE}--- {DEFAULT}Spieler jetzt [{BLUE}{PLAYERS} {DEFAULT}/ {BLUE}{MAXPLAYERS}{DEFAULT}]"
+     },
+     "reklama_2": {
+       "RU": "{BLUE}--- {DEFAULT}Выбрать скины оружия по ссылке {BLUE}servup.net/skins\n{BLUE}--- {DEFAULT}Сайт {BLUE}servup.net\n{BLUE}--- {DEFAULT}Discord {BLUE}discord.gg/SERVUP\n{BLUE}--- {DEFAULT}Telegram {BLUE}t.me/SERVUP",
+       "US": "{BLUE}--- {DEFAULT}Select a weapon skin by clicking {BLUE}servup.net/skins\n{BLUE}--- {DEFAULT}Website {BLUE}servup.net\n{BLUE}--- {DEFAULT}Discord {BLUE}discord.gg/csSERVUP\n{BLUE}--- {DEFAULT}Telegram {BLUE}t.me/SERVUP",
+       "UA": "{BLUE}--- {DEFAULT}Обери скіни зброї за посиланням {BLUE}servup.net/skins\n{BLUE}--- {DEFAULT}Сайт {BLUE}servup.net\n{BLUE}--- {DEFAULT}Discord {BLUE}discord.gg/csSERVUP\n{BLUE}--- {DEFAULT}Telegram {BLUE}t.me/SERVUP",
+       "PL": "{BLUE}--- {DEFAULT}Wybierz skiny broni na stronie {BLUE}servup.net/skins\n{BLUE}--- {DEFAULT}Strona {BLUE}servup.net\n{BLUE}--- {DEFAULT}Discord {BLUE}discord.gg/csSERVUP\n{BLUE}--- {DEFAULT}Telegram {BLUE}t.me/SERVUP",
+       "DE": "{BLUE}--- {DEFAULT}Wähle Waffenskins unter {BLUE}servup.net/skins\n{BLUE}--- {DEFAULT}Webseite {BLUE}servup.net\n{BLUE}--- {DEFAULT}Discord {BLUE}discord.gg/csSERVUP\n{BLUE}--- {DEFAULT}Telegram {BLUE}t.me/SERVUP"
+     }
   },
   "MapsName": {
-    "de_mirage": "Mirage",
-    "de_dust2": "Dust2",
-    "de_inferno": "Inferno",
-    "de_nuke": "Nuke",
-    "de_overpass": "Overpass",
-    "de_vertigo": "Vertigo",
-    "de_ancient": "Ancient",
-    "de_anubis": "Anubis",
-    "de_train": "Train"
+    "de_mirage": "de_mirage"
   }
 }

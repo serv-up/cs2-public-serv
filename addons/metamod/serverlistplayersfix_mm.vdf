@@ -1,5 +1,0 @@
-"Metamod Plugin"
-{
-	"alias"	"serverlistplayersfix"
-	"file"	"addons/metamod/serverlistplayersfix_mm/bin/linuxsteamrt64/serverlistplayersfix_mm"
-}

@@ -1,5 +1,5 @@
 {
-  "ResetScoreChatTag": "{Red}[RS]{Default}",
+  "ResetScoreChatTag": "{Default}[ {Blue}RS {Default}]",
   "ResetScoreOnlyVip": false,
   "SetScoreAdminFlag": "@css/ban",
   "ResetScoreVipFlag": "@css/vip",

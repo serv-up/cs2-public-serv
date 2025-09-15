@@ -1,0 +1,388 @@
+{
+  "LogToDiscord": true,
+  "LogToVk": false,
+  "LogToFile": false,
+  "LogToConsole": true,
+  "Author": "Public | ServUp",
+  "ConsoleColor": "Cyan", 
+  "VkChatId": 0,
+  "DiscordChannel": 0, // Дефолтный дс канал
+  "CustomChannels": { // Даёт возможность установить определённый канал, для определённых логов
+  //  "ban": 1233769364242863681
+  },
+  
+  // [1.0.2]
+  "CommandsBlacklist": ["css_admin"], // Команды от сюда не будут логироваться в commandUsed
+  // -------
+  
+  "Embeds": {
+    "error": {
+      "Title": "**ОШИБКА**",
+      "Description": "```{text}```",
+      "Color": {
+        "R": 255,
+        "G": 0,
+        "B": 0
+      },
+      "Fields": [
+      ]
+    },
+    "adminadd": {
+      "Title": "**Управление Админами**",
+      "Description": "```🆕 Добавлен новый админ```",
+      "Color": {
+        "R": 81,
+        "G": 67,
+        "B": 244
+      },
+      "Fields": [
+        {
+          "Name": "**👮 Ник админа**",
+          "Value": "[**{admin}**](https://steamcommunity.com/profiles/{adminId})",
+          "InLine": true
+        },
+        {
+          "Name": "**📁 Группа**",
+          "Value": "```{group}```",
+          "InLine": true
+        },
+        {
+          "Name": "**🚩 Флаги**",
+          "Value": "```{flags}```",
+          "InLine": false
+        },
+        {
+          "Name": "**🛡️ Иммунитет**",
+          "Value": "```{immunity}```",
+          "InLine": true
+        },
+        {
+          "Name": "**🏁 Заканчивается**",
+          "Value": "```{end}```",
+          "InLine": true
+        }
+      ]
+    },
+    "admindel": {
+      "Title": "**Управление Админами**",
+      "Description": "```⛔ Удален админ```",
+      "Color": {
+        "R": 249,
+        "G": 43,
+        "B": 43
+      },
+      "Fields": [
+        {
+          "Name": "**👮 Ник админа**",
+          "Value": "[**{admin}**](https://steamcommunity.com/profiles/{adminId})",
+          "InLine": true
+        },
+        {
+          "Name": "**📁 Группа**",
+          "Value": "```{group}```",
+          "InLine": true
+        },
+        {
+          "Name": "**🚩 Флаги**",
+          "Value": "```{flags}```",
+          "InLine": false
+        },
+        {
+          "Name": "**🛡️ Иммунитет**",
+          "Value": "```{immunity}```",
+          "InLine": true
+        },
+        {
+          "Name": "**🏁 Заканчивается**",
+          "Value": "```{end}```",
+          "InLine": true
+        }
+      ]
+    },
+    "ban": { 
+      "Title": "**🚨 Игровая блокировка**",
+      "Description": "```Тип блокировки: {type}```",
+      "Color": {
+        "R": 249,
+        "G": 43,
+        "B": 43
+      },
+      "Fields": [
+        {
+          "Name": "**👮 Админ**",
+          "Value": "[**{admin}**](https://steamcommunity.com/profiles/{adminId})",
+          "InLine": true
+        },
+        {
+          "Name": "**👨‍🦽 Нарушитель**",
+          "Value": "[**{target}**](https://steamcommunity.com/profiles/{targetId})",
+          "InLine": true
+        },
+        {
+          "Name": "**🌐 IP игрока**",
+          "Value": "||{targetIp}||",
+          "InLine": true
+        },
+        {
+          "Name": "**📕 Причина**",
+          "Value": "```{reason}```",
+          "InLine": false
+        },
+        {
+          "Name": "**⏰ Срок**",
+          "Value": "```{duration}```",
+          "InLine": true
+        },
+        {
+          "Name": "**🏁 Заканчивается**",
+          "Value": "```{end}```",
+          "InLine": true
+        }
+      ]
+    },
+    "unban": {
+      "Title": "**✅ Успешное снятие игровой блокировки для игрока**",
+      "Description": "```Тип блокировки: {type}```",
+      "Color": {
+        "R": 61,
+        "G": 241,
+        "B": 68
+      },
+      "Fields": [
+        {
+          "Name": "**👮 Админ**",
+          "Value": "```{admin}```",
+          "InLine": true
+        },
+        {
+          "InLine": true
+        },
+        {
+          "InLine": true
+        },
+        {
+          "Name": "**🎮 Игрок**",
+          "Value": "```{target}```",
+          "InLine": true
+        },
+        {
+          "Name": "**🆔 STEAM ID**",
+          "Value": "```{targetId}```",
+          "InLine": true
+        },
+        {
+          "Name": "**🆔 IP**",
+          "Value": "```{targetIp}```",
+          "InLine": true
+        }
+      ]
+    },
+    "comm": {
+      "Title": "**💬 Блокировка общения**",
+      "Description": "```Тип блокировки: {type}```",
+      "Color": {
+        "R": 249,
+        "G": 179,
+        "B": 43
+      },
+      "Fields": [
+        {
+          "Name": "**👮 Админ**",
+          "Value": "[**{admin}**](https://steamcommunity.com/profiles/{adminId})",
+          "InLine": true
+        },
+        {
+          "Name": "**🎮 Игрок**",
+          "Value": "[**{target}**](https://steamcommunity.com/profiles/{targetId})",
+          "InLine": true
+        },
+        {
+          "Name": "**🌐 IP игрока**",
+          "Value": "||{targetIp}||",
+          "InLine": true
+        },
+        {
+          "Name": "**📕 Причина**",
+          "Value": "```{reason}```",
+          "InLine": false
+        },
+        {
+          "Name": "**⏰ Срок**",
+          "Value": "```{duration}```",
+          "InLine": true
+        },
+        {
+          "Name": "**🏁 Заканчивается**",
+          "Value": "```{end}```",
+          "InLine": true
+        }
+      ]
+    },
+    "uncomm": {
+      "Title": "**✅ Успешное снятие блокировки общения для игрока**",
+      "Description": "```Тип блокировки: {type}```",
+      "Color": {
+        "R": 61,
+        "G": 241,
+        "B": 68
+      },
+      "Fields": [
+        {
+          "Name": "👮 Админ",
+          "Value": "```{admin}```",
+          "InLine": true
+        },
+        {
+          "Name": "🎮 Игрок ",
+          "Value": "```{target}```",
+          "InLine": true
+        },
+        {
+          "Name": "🆔 SteamID",
+          "Value": "```{targetId}```",
+          "InLine": true
+        }
+      ]
+    },
+    "slay": {
+      "Title": "**🎭 Действие, совершенное над игроком**",
+      "Description": "```Игрок убит```",
+      "Color": {
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Fields": [
+        {
+          "Name": "**👮 Админ**",
+          "Value": "[**{admin}**](https://steamcommunity.com/profiles/{adminId})",
+          "InLine": true
+        },
+        {
+          "Name": "**🎮 Игрок**",
+          "Value": "[**{target}**](https://steamcommunity.com/profiles/{targetId})",
+          "InLine": true
+        },
+        {
+          "Name": "🆔 SteamID",
+          "Value": "{targetId}",
+          "InLine": true
+        }
+      ]
+    },
+    "kick": {
+      "Title": "**🎭 Действие, совершенное над игроком**",
+      "Description": "```Игрок кикнут```",
+      "Color": {
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Fields": [
+        {
+          "Name": "**👮 Админ**",
+          "Value": "[**{admin}**](https://steamcommunity.com/profiles/{adminId})",
+          "InLine": true
+        },
+        {
+          "Name": "**🎮 Игрок**",
+          "Value": "[**{target}**](https://steamcommunity.com/profiles/{targetId})",
+          "InLine": true
+        },
+        {
+          "Name": "🆔 SteamID",
+          "Value": "{targetId}",
+          "InLine": true
+        },
+        {
+          "Name": "**👊 Причина**",
+          "Value": "```{reason}```",
+          "InLine": false
+        }
+      ]
+    },
+    "changeTeam": {
+      "Title": "**🎭 Действие, совершенное над игроком**",
+      "Description": "```Игрока переместили```",
+      "Color": {
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Fields": [
+        {
+          "Name": "**👮 Админ**",
+          "Value": "[**{admin}**](https://steamcommunity.com/profiles/{adminId})",
+          "InLine": true
+        },
+        {
+          "Name": "**🎮 Игрок**",
+          "Value": "[**{target}**](https://steamcommunity.com/profiles/{targetId})",
+          "InLine": true
+        },
+        {
+          "Name": "🆔 SteamID",
+          "Value": "{targetId}",
+          "InLine": true
+        },
+        {
+          "Name": "🔁 Новая команда",
+          "Value": "```{team}```",
+          "InLine": false
+        }
+      ]
+    },
+    "switchTeam": {
+      "Title": "**🎭 Действие, совершенное над игроком**",
+      "Description": "```Игроку поменяли команду```",
+      "Color": {
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Fields": [
+        {
+          "Name": "**👮 Админ**",
+          "Value": "[**{admin}**](https://steamcommunity.com/profiles/{adminId})",
+          "InLine": true
+        },
+        {
+          "Name": "**🎮 Игрок**",
+          "Value": "[**{target}**](https://steamcommunity.com/profiles/{targetId})",
+          "InLine": true
+        },
+        {
+          "Name": "🆔 SteamID",
+          "Value": "{steamId}",
+          "InLine": true
+        },
+        {
+          "Name": "🔁 Новая команда",
+          "Value": "```{team}```",
+          "InLine": false
+        }
+      ]
+    },
+    "commandUsed": {
+      "Title": "**Команды**",
+      "Description": "```Была использована команда```",
+      "Color": {
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      "Fields": [
+        {
+          "Name": "**👮 Админ**",
+          "Value": "```{admin}```",
+          "InLine": true
+        },
+        {
+          "Name": "**📁 Команда**",
+          "Value": "```{cmd}```",
+          "InLine": true
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,9 @@
 {
   "TimeMode": 0,
   "ServerId": 1,
-  "UseCenterHtmlMenu": false,
+  "UseCenterHtmlMenu": true,
+  "ServerIP": "",
+  "ServerPort": 27015,
   "ReOpenMenuAfterItemClick": false,
   "VipLogging": true,
   "Connection": {

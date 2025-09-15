@@ -5,7 +5,10 @@
 	"menumanager.chat":"Chat menu",
 	"menumanager.center":"Center (Standard)",
 	"menumanager.control":"Center (Controlling)",
+	"menumanager.metamod":"Meta-menu (Chat|Controlling)",
 	"menumanager.selected_type":"Selected menu-type:",
 	"menumanager.back":"Back",
-	"menumanager.empty":"Nothing to show"
+	"menumanager.empty":"Nothing to show",
+	"menumanager.selected_item":"► [MENUITEM] ◄",
+	"menumanager.disabled_item":"<font color='#aaaaaa'>[MENUITEM]</font>"
 }
