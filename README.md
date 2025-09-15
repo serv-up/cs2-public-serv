@@ -62,11 +62,11 @@ Feel free to fork this repository, submit bug reports, or contribute to the proj
 
 This repository provides a basic server configuration that you can extend with additional features based on your needs. However, if you want to create a high-quality and well-thought-out server build, feel free to contact us — we are happy to help everyone. Learn more on our website: [servup.net](https://servup.net).
 
-To find the necessary plugin and keep track of its updates, join our Discord channel: [https://servup.net/discord](https://servup.net/discord).
+To find the necessary plugin and keep track of its updates, join our Discord channel: [https://servup.net/ds](https://servup.net/ds).
 
 ## Looking for Opportunities
 
 If you need an experienced developer for your projects, contact me:
 
-- **Discord**: [https://servup.net/discord](https://servup.net/discord)
-- **Telegram**: [https://t.me/serv_up](https://t.me/serv_up)
+- **Discord**: [https://servup.net/ds](https://servup.net/ds)
+- **Telegram**: [https://t.me/servup](https://t.me/servup)
