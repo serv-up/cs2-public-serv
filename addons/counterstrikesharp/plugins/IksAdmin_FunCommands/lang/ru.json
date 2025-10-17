@@ -59,10 +59,10 @@
     "Message.MaxAmmo" : "Макс. кол-во патронов для {red}{weapon}{white}: {red}{value}",
     "Message.NoRecoil" : "Отдача для игрока {red}{target}{white}: {red}{value}",
 
-    "Request.ShootSpeed" : "Введите скорость стрельбы для {red}{weapon}{white}: {red}!<0,1(число)/default>",
-    "Request.BonusDamage" : "Введите бонусный урон для {red}{weapon}{white}: {red}!<10(целое число)/default>",
-    "Request.CustomDamage" : "Введите урон для {red}{weapon}{white}: {red}!<10(целое число)/default>",
-    "Request.MaxAmmo" : "Введите макс. кол-во патронов для {red}{weapon}{white}: {red}!<100(целое число)/default>",
+    "Request.ShootSpeed" : "Введите скорость стрельбы: {red}!<0,1(число)/default>",
+    "Request.BonusDamage" : "Введите бонусный урон: {red}!<10(целое число)/default>",
+    "Request.CustomDamage" : "Введите урон: {red}!<10(целое число)/default>",
+    "Request.MaxAmmo" : "Введите макс. кол-во патронов: {red}!<100(целое число)/default>",
 
     "Error.MustHandleWeapon" : "{red}Цель должна держать оружие в руках!",
     

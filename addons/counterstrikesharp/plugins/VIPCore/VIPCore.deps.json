@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "VIPCore/1.0.0": {
         "dependencies": {
-          "CounterStrikeSharp.API": "1.0.339",
+          "CounterStrikeSharp.API": "1.0.342",
           "Dapper": "2.1.21",
           "Microsoft.Extensions.Localization": "8.0.0",
           "Microsoft.Extensions.Logging": "8.0.0",
@@ -20,7 +20,7 @@
           "VIPCore.dll": {}
         }
       },
-      "CounterStrikeSharp.API/1.0.339": {
+      "CounterStrikeSharp.API/1.0.342": {
         "dependencies": {
           "McMaster.NETCore.Plugins": "1.4.0",
           "Microsoft.CSharp": "4.7.0",
@@ -38,8 +38,8 @@
         },
         "runtime": {
           "lib/net8.0/CounterStrikeSharp.API.dll": {
-            "assemblyVersion": "1.0.339.0",
-            "fileVersion": "1.0.339.0"
+            "assemblyVersion": "1.0.342.0",
+            "fileVersion": "1.0.342.0"
           }
         }
       },
@@ -581,10 +581,13 @@
       },
       "VipCoreApi/1.0.0": {
         "dependencies": {
-          "CounterStrikeSharp.API": "1.0.339"
+          "CounterStrikeSharp.API": "1.0.342"
         },
         "runtime": {
-          "VipCoreApi.dll": {}
+          "VipCoreApi.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "MenuManagerApi/1.0.0.0": {
@@ -603,12 +606,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CounterStrikeSharp.API/1.0.339": {
+    "CounterStrikeSharp.API/1.0.342": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0gJ6dBB0cicdhgfSkRe50gQjdVDo/vo6N8ZxG7As6Fz6QDPnF/brxY7Tn8MWlD74zY+ynd8UHL8W6mRrDPVtPA==",
-      "path": "counterstrikesharp.api/1.0.339",
-      "hashPath": "counterstrikesharp.api.1.0.339.nupkg.sha512"
+      "sha512": "sha512-HnkIxlKdohu+SU7hsH+wsvz/ihr5naaFzhG2myRitAmXCXcLHYG0l5nFfLwOWIBgFmQsGEY1ZNvhgvWeLhIteg==",
+      "path": "counterstrikesharp.api/1.0.342",
+      "hashPath": "counterstrikesharp.api.1.0.342.nupkg.sha512"
     },
     "Dapper/2.1.21": {
       "type": "package",
